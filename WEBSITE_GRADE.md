@@ -27,6 +27,7 @@ Use these as calibration samples before broad generation:
 - **Public service / government transactional site**: official service identity, eligibility, start page, materials, step-by-step form, error recovery, check answers, confirmation, status, privacy, accessibility, assisted digital support.
 - **Marketplace / listing directory site**: search, filters, list/detail comparison, provider or product profile, verified reviews, pricing/fees, availability, quote/booking CTA, no-result recovery, sponsored/verification boundaries, SEO landing pages.
 - **AI model transparency / developer platform site**: model catalog, model cards, benchmarks with methodology, pricing units, docs/API, safety/trust, evals, status, changelog, deprecation and migration notes.
+- **Operations dashboard / admin console**: scope navigation, KPI cards, charts, dense data table, filters, saved views, row/bulk actions, exports, permissions, audit trail, loading/empty/error/permission states.
 
 ## Archetype Structure Requirements
 
@@ -249,6 +250,21 @@ Required sections:
 - Docs and changelog: quickstart, SDK/REST, parameters, errors, rate limits, migration guide, model deprecation, and pricing/API breaking changes kept in sync.
 
 Failure pattern: an AI platform page that markets a "best model" but omits versioning, model-card fields, benchmark methodology, pricing units, safety boundaries, status components, docs, or changelog is not transparent enough for developers.
+
+### Operations Dashboard / Admin Console
+
+Required sections:
+
+- First viewport: product scope, user/team/account selector, current time range or live-refresh state, primary operational KPI, alerts, and the most important work queue.
+- Navigation and scope: sidebar or topbar, global search, breadcrumbs or workspace context, team/account switcher, saved views, and permission-aware entry points.
+- Data table: 8-12 credible rows where useful, mixed column types, status badges, sorting, pagination or result count, column visibility, row selection, row actions, details drawer or detail page.
+- Filters and views: date range, status, owner, priority, tag/search, selected chips, clear/reset, save view, shared view ownership, and empty filtered state with recovery.
+- Charts and metrics: KPI cards, trend chart or distribution, unit, time range, legend/tooltip hint, drill-down path, and last-updated note.
+- Operations loop: assign owner, approve/reject, mark reviewed, export selected, retry failed job, dangerous-action confirmation, undo/retry where appropriate.
+- Exports and audit: CSV/PDF/XLSX/JSONL or warehouse sync, current page vs full result set, export progress, failure feedback, audit log, and role restrictions.
+- States and permissions: loading skeleton, first-run empty, filtered no-results, API timeout, stale data, permission denied, disabled actions, and role explanation.
+
+Failure pattern: a dashboard sample with beautiful KPI cards but no table, filters, row actions, saved views, exports, permissions, audit trail, or error/empty/loading states is a landing-page graphic, not an admin console.
 
 ## Style Mapping
 
