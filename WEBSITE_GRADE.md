@@ -29,6 +29,7 @@ Use these as calibration samples before broad generation:
 - **AI model transparency / developer platform site**: model catalog, model cards, benchmarks with methodology, pricing units, docs/API, safety/trust, evals, status, changelog, deprecation and migration notes.
 - **Operations dashboard / admin console**: scope navigation, KPI cards, charts, dense data table, filters, saved views, row/bulk actions, exports, permissions, audit trail, loading/empty/error/permission states.
 - **Insurance claim / high-trust transaction flow**: incident type, policy/identity lookup, dynamic evidence checklist, upload receipts, estimate boundary, claim status center, notifications, human review, privacy and support.
+- **Subscription media / streaming service site**: searchable catalog, title detail, preview/playback, plans and trial terms, cancellation, watchlist, profiles, accessibility, downloads, account and data controls.
 
 ## Archetype Structure Requirements
 
@@ -280,6 +281,19 @@ Required sections:
 - Privacy and support: data use near sensitive uploads, retention/sharing, approved repair partners, phone/chat/TTY/assisted route, emergency boundary, and accessibility alternatives.
 
 Failure pattern: a claim-flow sample that only collects a form but lacks upload receipts, status timeline, estimate boundaries, missing-evidence recovery, notifications, privacy near upload, or human escalation will not feel trustworthy.
+
+### Subscription Media / Streaming Service Site
+
+Required sections:
+
+- First viewport: service identity, content category, preview/browse CTA, subscription CTA, trial length, cancellation statement, and at least one featured title with concrete metadata.
+- Catalog and discovery: search, genre/format filters, editorial shelves, title cards with runtime/format/accessibility labels, recommendations, watchlist, and availability/download cues.
+- Title detail: synopsis, trailer or preview state, runtime, release/season metadata, captions/audio description/transcript, related titles, watchlist/download actions, and parental or rating notes where relevant.
+- Plans and billing: plan comparison, trial terms, billing reminder, monthly/yearly price, downloads/devices/profiles, cancellation path, plan change, invoice/payment settings, and renewal expectations.
+- Playback experience: player controls, captions, audio descriptions, playback speed, resume state, offline downloads, device handoff, error/buffering state, and accessibility controls.
+- Account trust: profiles, parental controls, device management, viewing history, data export/delete, privacy settings, billing history, and cancellation without dark patterns.
+
+Failure pattern: a streaming sample that is only a poster wall with a signup CTA but lacks catalog filters, title detail, playback/accessibility states, plan terms, cancellation, account controls, or data/device management is not a complete subscription media product.
 
 ## Style Mapping
 
