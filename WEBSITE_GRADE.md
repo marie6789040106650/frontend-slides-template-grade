@@ -23,6 +23,7 @@ Use these as calibration samples before broad generation:
 - **Hospitality / restaurant / hotel site**: menu or rooms, reservations, location, hours, reviews, real imagery, accessibility, cancellation or booking policy.
 - **Law firm / legal service site**: practice areas, attorney credentials, jurisdiction, disclaimer, consultation path, privacy-aware intake, no-result-guarantee boundary.
 - **Careers / recruiting site**: job search, role detail, salary/location/remote policy, hiring process, EEO, accommodations, candidate privacy, mobile apply.
+- **Nonprofit / donation site**: mission, donation form, impact amounts, recurring gift controls, tax status, financial transparency, donor privacy, volunteer/ways-to-give paths, post-donation feedback.
 
 ## Archetype Structure Requirements
 
@@ -190,6 +191,19 @@ Required sections:
 - Candidate privacy: data use, retention, deletion/access request, third-party ATS note, and consent boundaries.
 
 Failure pattern: a careers page that shows culture imagery but hides salary, location, role requirements, application steps, EEO/accommodation, or candidate privacy will frustrate serious applicants.
+
+### Nonprofit / Donation Site
+
+Required sections:
+
+- First viewport: organization name, specific mission, primary donation CTA, service geography or beneficiary, tax-deductible/EIN or charity-status signal, and one secondary proof path such as impact or financials.
+- Donation decision: one-time/monthly toggle, suggested amounts, custom amount, concrete impact explanation for each amount, secure payment note, receipt/tax note, processing-fee transparency, and recurring-gift change/cancel path.
+- Trust and transparency: annual report, financial allocation, board or governance signal, charity/tax status, donor privacy, contact email, and clear use of funds.
+- Impact proof: program ledger, households/projects served, update date, story or field evidence, restricted-fund options, and how donors hear back after giving.
+- More ways to help: volunteer shifts, corporate matching, DAF/stocks/mail/check where relevant, peer fundraising, and non-donation participation paths that do not compete with the main gift CTA.
+- Post-donation flow: thank-you/receipt state, share or invite option, monthly upgrade prompt, and next impact update expectation.
+
+Failure pattern: a nonprofit page with emotional imagery but no donation flow, tax/trust proof, amount-to-impact mapping, financial transparency, donor privacy, or post-gift feedback is only a cause poster.
 
 ## Style Mapping
 
