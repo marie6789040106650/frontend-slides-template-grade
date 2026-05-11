@@ -1,0 +1,13 @@
+{
+  "name": "frontend-slides",
+  "version": "1.1.0",
+  "description": "Zero-dependency HTML presentation generator with template-grade gallery standards, 12 curated visual themes, PPT conversion, and anti-AI-slop design philosophy.",
+  "author": {
+    "name": "marie6789040106650",
+    "url": "https://github.com/marie6789040106650"
+  },
+  "homepage": "https://github.com/marie6789040106650/frontend-slides-template-grade",
+  "repository": "https://github.com/marie6789040106650/frontend-slides-template-grade",
+  "license": "MIT",
+  "keywords": ["presentations", "slides", "html", "design", "powerpoint", "animations"]
+}
