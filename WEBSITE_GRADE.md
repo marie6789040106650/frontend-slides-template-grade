@@ -218,6 +218,31 @@ Every website-grade page needs:
 - Mobile stacking rules for hero, proof, cards, timelines, and CTAs.
 - No unresolved placeholders.
 
+## Scoring Gate
+
+Use a two-layer score when auditing or improving website translations:
+
+1. **Task fitness gate**: can the visitor complete the archetype's core decision? If no, the page cannot score above 70 no matter how good it looks.
+2. **Industry blocker gate**: if a required high-trust, purchase, application, booking, or compliance fact is missing, cap the score at 60 until fixed.
+3. **Visual translation score**: only after the gates pass, evaluate typography, color, motion, spacing, image quality, and template distinctiveness.
+
+Suggested allocation for a 100-point audit:
+
+- 35 points: archetype information architecture and task completion.
+- 25 points: industry-specific trust, proof, policy, or decision facts.
+- 20 points: visual translation from the source template without slide-like leftovers.
+- 10 points: responsive behavior, accessibility, and mobile conversion.
+- 10 points: SEO, structured data, crawlable content, and page-system completeness.
+
+Hard caps:
+
+- Missing primary CTA or first-viewport offer clarity: max 65.
+- Navigation labels point to empty anchors or decorative sections: max 70.
+- Page is only hero plus generic feature cards: max 60.
+- Sensitive/high-trust industry lacks required disclosure/privacy/safety boundary: max 55.
+- Mobile horizontal overflow or clipped core CTA: max 60.
+- Placeholder text, fake lorem content, or unresolved asset: max 50.
+
 ## Translation Checklist
 
 Before writing code:
