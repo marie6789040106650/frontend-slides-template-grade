@@ -21,6 +21,8 @@ Use these as calibration samples before broad generation:
 - **Healthcare clinic / health service site**: appointment paths, provider credentials, location, insurance, privacy, emergency boundaries, patient preparation.
 - **Real estate / property / rental site**: location search, map context, price, availability, listing facts, agent trust, fees, showing/apply CTA, fair-housing disclosure.
 - **Hospitality / restaurant / hotel site**: menu or rooms, reservations, location, hours, reviews, real imagery, accessibility, cancellation or booking policy.
+- **Law firm / legal service site**: practice areas, attorney credentials, jurisdiction, disclaimer, consultation path, privacy-aware intake, no-result-guarantee boundary.
+- **Careers / recruiting site**: job search, role detail, salary/location/remote policy, hiring process, EEO, accommodations, candidate privacy, mobile apply.
 
 ## Archetype Structure Requirements
 
@@ -163,6 +165,32 @@ Required sections:
 
 Failure pattern: hospitality pages can be atmospheric, but if users cannot see menu/rooms, hours, location, reviews, and reservation path quickly, the design is only a mood piece.
 
+### Law Firm / Legal Service Site
+
+Required sections:
+
+- First viewport: firm/service type, jurisdiction or location, core practice areas, consultation CTA, phone/contact path, and attorney advertising or relationship boundary where appropriate.
+- Practice-area pages: who the firm helps, matter types, process, local courts/contexts, timing, fee model when appropriate, and when the matter is out of scope.
+- Attorney trust: attorney bio, bar admission, license/jurisdiction, practice focus, office, contact path, and review/case-result policy.
+- Legal disclaimer: website is general information, not legal advice; submitting a form does not create an attorney-client relationship; avoid confidential details before engagement.
+- Ethics and claims: avoid unsupported "best", "guaranteed", or misleading results claims; case results require clear no-similar-outcome disclaimer.
+- Privacy-aware intake: collect only necessary screening details, explain conflict check, and protect sensitive facts.
+
+Failure pattern: a law-firm page that looks authoritative but hides lawyer identity, jurisdiction, practice scope, disclaimers, or consultation boundaries is not usable legal marketing.
+
+### Careers / Recruiting Site
+
+Required sections:
+
+- First viewport: employer identity, role search or open roles, location/remote policy, primary apply/view roles CTA, and candidate value proposition.
+- Job search and filters: team, location, experience level, employment type, remote/hybrid/on-site, salary band where relevant, and role status.
+- Role detail: responsibilities, qualifications, salary range, location, reporting line, benefits, accommodations, application steps, and realistic timeline.
+- Hiring process: stages, interview format, work-sample policy, compensation for take-home work when applicable, and offer/rejection communication expectations.
+- Employer trust: values, team proof, benefits, growth, inclusion/EEO, accessibility accommodations, and employee stories without generic culture fluff.
+- Candidate privacy: data use, retention, deletion/access request, third-party ATS note, and consent boundaries.
+
+Failure pattern: a careers page that shows culture imagery but hides salary, location, role requirements, application steps, EEO/accommodation, or candidate privacy will frustrate serious applicants.
+
 ## Style Mapping
 
 - Bold Signal / Electric Studio: SaaS, operations, institutional product pages.
@@ -175,6 +203,8 @@ Failure pattern: hospitality pages can be atmospheric, but if users cannot see m
 - Paper & Ink / Grove / Blue Professional: healthcare clinics, patient portals, insurance/billing pages, and health libraries.
 - Swiss Modern / Signal / Long Table: real-estate search, listing detail, floor-plan availability, and market-report pages.
 - Vintage Editorial / Soft Editorial / Long Table: restaurants, boutique hotels, tasting menus, room pages, and local experiences.
+- Signal / Paper & Ink / Vellum: law firms, policy consultancies, professional-services practices, and reputation-sensitive advisory sites.
+- Electric Studio / Notebook Tabs / Swiss Modern: careers pages, job boards, hiring-process pages, and technical recruiting sites.
 
 ## Required Website Behavior
 
@@ -210,6 +240,7 @@ Before delivery:
 - Check the visible screenshot against strong industry examples in the same category: product pages need product proof, docs need search/tasks, events need date/tickets, editorial needs authorship/chapters, service sites need cases/method.
 - Check industry-specific blockers: ecommerce needs price/variants/shipping/returns/reviews; education needs outcomes/curriculum/instructor/tuition/refund; financial needs disclosures/security/fees/money-flow/support.
 - Check sensitive-service blockers: healthcare needs emergency boundaries and privacy; real estate needs price/map/fees/compliance; hospitality needs booking/menu-or-room/location/hours/mobile actions.
+- Check professional/candidate blockers: legal needs jurisdiction/attorney/disclaimer/intake boundary; careers needs role search/JD/salary/location/process/privacy.
 - Check mobile layout does not overlap, clip important text, or hide conversion actions.
 - If deployed, verify the website index and every sample page return HTTP 200.
 
@@ -258,3 +289,5 @@ When running a sustained feedback loop across industries:
 - Healthcare is adjacent to financial high-trust work but adds patient safety: booking UX, medical credentials, insurance, privacy, emergency guidance, accessibility, and YMYL-safe health claims.
 - Real estate is an excellent stress test for layout because it needs search, map context, listing facts, price/availability, contact, and legal disclosure in the same flow.
 - Hospitality should keep atmosphere, but never at the cost of action: menu or room details, hours, location, reviews, phone, directions, booking, cancellation, and accessibility must remain visible.
+- Legal/professional-service pages should prioritize trust boundaries over bravado: practice fit, lawyer credentials, jurisdiction, no attorney-client relationship warning, and privacy-aware intake.
+- Careers pages are strongest when they respect candidate time: searchable roles, transparent ranges, location/remote expectations, interview steps, EEO/accommodations, and candidate data handling.
