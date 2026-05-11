@@ -16,6 +16,66 @@ Use these as calibration samples before broad generation:
 - **Editorial / research report site**: issue title, author/date, findings, chapters, charts, quotes, subscribe/download CTA.
 - **High-end service / studio case site**: positioning, representative work, method, client result, process, consultation CTA.
 
+## Archetype Structure Requirements
+
+Do not reuse one generic landing-page skeleton across all archetypes. The style can come from a deck template, but the information architecture must come from the website type.
+
+### B2B SaaS Product Site
+
+Required sections:
+
+- First viewport: product category, target team, concrete promise, demo CTA, product-tour secondary CTA.
+- Product surface: dashboard, workflow, table, command center, or another believable software screen, not an abstract poster.
+- Proof: named customer-style marks, quantified operational metrics, case evidence, or review signals.
+- Integration and trust layer: integrations, security/compliance, data flow, permissions, or admin controls.
+- Conversion finish: demo, pricing entry, or sales contact path.
+
+Failure pattern: a SaaS page that only shows a bold graphic and feature cards still feels like a pitch slide, not a product website.
+
+### Knowledge Base / Docs Portal
+
+Required sections:
+
+- First viewport: search affordance or quickstart CTA visible immediately.
+- Task paths: install, authenticate, troubleshoot, migrate, configure, or publish cards with concrete time or difficulty cues.
+- Reference surface: API/category navigation, code block, version selector, changelog, or troubleshooting route.
+- Maintenance signal: latest version, updated date, release notes, or support path.
+
+Failure pattern: a docs page without search, code, quick paths, or version context is only an editorial landing page wearing a docs aesthetic.
+
+### Event / Conference Site
+
+Required sections:
+
+- First viewport: event name, date, location, audience, registration CTA.
+- People and program: speakers, agenda, tracks, workshops, or critique sessions.
+- Ticket decision: tiers, prices, seat count, deadline, or venue capacity.
+- Venue/logistics: location, schedule rhythm, sponsors, hotel/travel notes, or accessibility notes.
+
+Failure pattern: an event page that hides date/location/tickets below decorative visuals fails the basic registration decision.
+
+### Editorial / Research Report Site
+
+Required sections:
+
+- First viewport: issue/report title, publication identity, author/editor, date or issue number, read/subscribe CTA.
+- Browsing structure: findings, chapter list, article cards, archive, or table of contents.
+- Reading proof: quotes, charts, annotations, source notes, or methodology.
+- Continuity: subscribe, download, print/PDF, archive, or next issue path.
+
+Failure pattern: editorial style without authorship, issue metadata, and article/chapter entry points feels like a poster, not a publication.
+
+### High-End Service / Studio Case Site
+
+Required sections:
+
+- First viewport: who the studio serves, what outcome it creates, timeframe or engagement shape, consultation CTA.
+- Case evidence: named sample projects, client-style context, before/after, measurable results, or representative work.
+- Method: process stages, collaboration model, deliverables, decision cadence.
+- Trust and conversion: testimonial, client list, consultation form, email path, or availability signal.
+
+Failure pattern: premium service sites can be atmospheric, but if they lack case proof and a concrete engagement path, they read as moodboards.
+
 ## Style Mapping
 
 - Bold Signal / Electric Studio: SaaS, operations, institutional product pages.
@@ -53,7 +113,9 @@ Before delivery:
 - Check the page is not just a PPT cover plus cards.
 - Check the first viewport communicates the offer in about five seconds.
 - Check CTA appears in the hero and near the end.
+- Check the body sections match the archetype requirements above.
 - Check each page has concrete sample content instead of generic labels.
+- Check the visible screenshot against strong industry examples in the same category: product pages need product proof, docs need search/tasks, events need date/tickets, editorial needs authorship/chapters, service sites need cases/method.
 - Check mobile layout does not overlap, clip important text, or hide conversion actions.
 - If deployed, verify the website index and every sample page return HTTP 200.
 
@@ -61,8 +123,17 @@ Before delivery:
 
 For a new style-to-website system:
 
-1. Build 3-5 concrete website samples across different archetypes.
-2. Audit each against the checks above.
-3. Note which template vocabularies transfer well and which feel too slide-like.
-4. Update this skill with the learned mappings and failure patterns.
-5. Generate the next batch with the revised rules.
+1. Upgrade the skill rubric before or during implementation if the current rubric cannot judge the requested website type.
+2. Build 3-5 concrete website samples across different archetypes.
+3. Screenshot each first viewport and at least one body section.
+4. Compare each screenshot with strong industry examples in the same category, separating visual taste from task fitness.
+5. Note which template vocabularies transfer well and which feel too slide-like.
+6. Update this skill with the learned mappings, structure requirements, and failure patterns.
+7. Generate the next batch with the revised rules.
+
+## Current Calibration Notes
+
+- Reducing hero scale often makes the same visual system feel more website-native. A deck-cover title can be beautiful and still push the CTA below the useful first viewport.
+- Generic "hero + proof + feature cards" pages are not enough for a style library. They show visual transfer but not website competence.
+- The strongest samples keep a signature template visual in the hero while giving the body a category-specific job.
+- Navigation labels should name real user decisions: Product, Integrations, Security; Quickstart, API, Changelog; Speakers, Agenda, Tickets; Issue, Essays, Archive; Cases, Method, Results.

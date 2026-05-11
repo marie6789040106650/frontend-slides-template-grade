@@ -13,7 +13,7 @@ https://templates.inkblocklab.com/
 - Added **template-grade mode** for reusable deck templates, public galleries, premium samples, and website-style variants.
 - Added **website-grade mode** for translating deck/template styles into real websites.
 - Added `TEMPLATE_GRADE.md`, a stricter completion standard for authored demo decks.
-- Added `WEBSITE_GRADE.md`, a feedback-loop standard for B2B SaaS pages, docs portals, event sites, editorial/report sites, and high-end service/case-study sites.
+- Added `WEBSITE_GRADE.md`, a feedback-loop standard for B2B SaaS pages, docs portals, event sites, editorial/report sites, and high-end service/case-study sites, including archetype-specific structure requirements.
 - Expanded the skill trigger description so it applies to template libraries and high-completion HTML samples, not only ordinary presentations.
 - Added a production checklist for:
   - 8-12 slide demo decks
@@ -80,6 +80,8 @@ Use this skill when asking for:
 
 For high-completion template work, the skill should read `TEMPLATE_GRADE.md` and run the template-grade audit before delivery. For website work, it should read `WEBSITE_GRADE.md`, build real website flows, and feed the audit results back into future skill improvements.
 
+Website-grade work should not reuse one generic landing-page skeleton across every style. It should compare rendered screenshots against strong examples in the same category, then update the rubric when a page still feels too slide-like.
+
 ## Validation Performed
 
 This enhanced skill was validated against a 44-page deployed gallery:
@@ -87,6 +89,8 @@ This enhanced skill was validated against a 44-page deployed gallery:
 - 32 entries from `beautiful-html-templates`
 - 12 `frontend-slides` preset demo decks
 - all 12 `frontend-slides` demos generated as 10-slide decks
+- 5 website-style calibration samples across SaaS, docs, event, editorial, and studio/service archetypes
+- website samples upgraded from generic style transfer into archetype-specific structures
 - visible placeholder scan passed
 - per-template preview/thumbnail audit passed
 - all 44 deployed pages returned HTTP 200
