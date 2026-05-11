@@ -31,6 +31,7 @@ Use these as calibration samples before broad generation:
 - **Insurance claim / high-trust transaction flow**: incident type, policy/identity lookup, dynamic evidence checklist, upload receipts, estimate boundary, claim status center, notifications, human review, privacy and support.
 - **Subscription media / streaming service site**: searchable catalog, title detail, preview/playback, plans and trial terms, cancellation, watchlist, profiles, accessibility, downloads, account and data controls.
 - **Community / social membership platform**: onboarding, room/channel discovery, feed/detail pages, profile setup, rules, moderation, reporting/blocking, notifications, privacy, data controls, and member-safety states.
+- **Travel planning / booking site**: destination/date/guest search, map and list comparison, filters, total price, itinerary builder, checkout, confirmation, saved trips, cancellation/change states, and no-availability recovery.
 
 ## Archetype Structure Requirements
 
@@ -309,6 +310,20 @@ Required sections:
 
 Failure pattern: a community sample that shows chat cards or member avatars but lacks onboarding, rules, room purpose, moderation/reporting/blocking, notification controls, profile privacy, or data boundaries will feel unsafe and unfinished.
 
+### Travel Planning / Booking Site
+
+Required sections:
+
+- First viewport: destination/date/guest search, visible search CTA, trip type or accommodation category, trust cue, and a quick path to saved trips or itinerary.
+- Search results: query summary, selected filters, sort, result count, list cards with total price, rating/review count, location distance, cancellation/payment policy, availability, and a map/list toggle.
+- Map context: markers with price, transit or landmark context, neighborhood boundaries, selected stay state, comparable alternatives, and preserved filters.
+- Filters and recovery: price, location, rating, amenities, family/accessibility needs, cancellation/payment policy, selected chips, reset, flexible dates, nearby locations, and no-availability suggestions.
+- Itinerary system: saved stays, places, transport, documents, day/time blocks, editable order, conflict warnings, sharing/collaboration where relevant, and offline/export path.
+- Booking checkout: guest details, total price breakdown, taxes/fees, cancellation policy, property rules, payment state, error recovery, review-before-booking, and confirmation preview.
+- Confirmation and change states: booking ID, receipt, cancellation deadline, calendar/download, what is booked vs only saved, change dates, cancel, refund estimate, and support/property contact.
+
+Failure pattern: a travel sample that is only a scenic hero or generic listing grid but lacks search, map context, filters, total-price clarity, editable itinerary, checkout review, confirmation, or cancellation/change states is not a credible booking product.
+
 ## Style Mapping
 
 - Bold Signal / Electric Studio: SaaS, operations, institutional product pages.
@@ -324,6 +339,7 @@ Failure pattern: a community sample that shows chat cards or member avatars but 
 - Signal / Paper & Ink / Vellum: law firms, policy consultancies, professional-services practices, and reputation-sensitive advisory sites.
 - Electric Studio / Notebook Tabs / Swiss Modern: careers pages, job boards, hiring-process pages, and technical recruiting sites.
 - Notebook Tabs / Creative Voltage / Paper & Ink: community platforms, learning circles, member directories, and moderated social products.
+- Pastel Geometry / Signal / Swiss Modern: travel search, map/list booking flows, itinerary planners, and lightweight trip dashboards.
 
 ## Required Website Behavior
 
@@ -386,6 +402,7 @@ Before delivery:
 - Check sensitive-service blockers: healthcare needs emergency boundaries and privacy; real estate needs price/map/fees/compliance; hospitality needs booking/menu-or-room/location/hours/mobile actions.
 - Check professional/candidate blockers: legal needs jurisdiction/attorney/disclaimer/intake boundary; careers needs role search/JD/salary/location/process/privacy.
 - Check social/community blockers: onboarding needs rules before feed; rooms need purpose and member context; users need reporting/blocking, moderation notes, notification controls, profile privacy, and data export/delete paths.
+- Check travel blockers: search must be first-class; results need map/list context, persistent filters, total price, cancellation/payment policy, itinerary save path, checkout review, confirmation, and cancel/change recovery.
 - Check mobile layout does not overlap, clip important text, or hide conversion actions.
 - If deployed, verify the website index and every sample page return HTTP 200.
 
@@ -452,3 +469,4 @@ When running a sustained feedback loop across industries:
 - Real-estate/rental samples should graduate from "single attractive listing" to a listing system: searchable inventory, filters, floor-plan detail, fee and deposit disclosures, tour scheduling, neighborhood context, fair-housing language, anti-scam warnings, and fresh price/availability state.
 - Subscription-media samples should graduate from "poster wall plus signup" to a membership media system: browse/search catalog, title detail, playback preview, accessibility controls, trial and billing terms, cancellation, account/device/profile controls, watchlist, downloads, and data export/delete.
 - Community-platform samples should graduate from "chat-looking cards" to a moderated membership system: onboarding, room discovery, pinned rules, first-post prompt, member profiles, DM permissions, report/block/mute, moderation queue, appeals, notification digests, quiet hours, and privacy/data controls.
+- Travel-booking samples should graduate from "destination mood page" to a planning and booking system: date/guest search, map/list results, total-price cards, persistent filters, saved itinerary, checkout review, confirmation, cancellation/change state, support, and no-availability recovery.
