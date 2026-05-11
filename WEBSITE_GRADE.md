@@ -15,6 +15,9 @@ Use these as calibration samples before broad generation:
 - **Event / conference site**: date, location, agenda, speakers, ticket tiers, venue, registration CTA.
 - **Editorial / research report site**: issue title, author/date, findings, chapters, charts, quotes, subscribe/download CTA.
 - **High-end service / studio case site**: positioning, representative work, method, client result, process, consultation CTA.
+- **Ecommerce product detail page**: product media, price, variants, stock, shipping, returns, reviews, material/spec proof, add-to-cart CTA.
+- **Cohort course / education site**: audience fit, learning outcomes, curriculum, instructor proof, cohort mechanics, tuition, FAQ/application CTA.
+- **High-trust financial product site**: regulatory identity, disclosures, security evidence, fee transparency, money-flow clarity, support, eligibility CTA.
 
 ## Archetype Structure Requirements
 
@@ -78,6 +81,46 @@ Required sections:
 
 Failure pattern: premium service sites can be atmospheric, but if they lack case proof and a concrete engagement path, they read as moodboards.
 
+### Ecommerce Product Detail Page
+
+Required sections:
+
+- First viewport: product category, name, price or promotion, rating, primary product image, add-to-cart CTA, variant selector, stock, shipping, returns, and warranty/payment cues.
+- Media system: main image, detail image, use-case image, zoom or thumbnail affordance, and alt text for concrete product inspection.
+- Buying configuration: color, size, capacity, bundle, subscription, or another believable variant state; include unavailable or low-stock logic when relevant.
+- Product evidence: materials, dimensions, ingredients/components, care, compatibility, package contents, sizing, or technical specs.
+- Trust and conversion: reviews, rating distribution, return policy, warranty, payment options, customer support, and FAQ near the purchase path.
+- SEO/structured layer: product URL, Product/Offer/Review/Breadcrumb/FAQ structured-data plan, meta description, image alt, and shipping/return information that search engines and buyers can parse.
+
+Failure pattern: a product page that looks like a beautiful brand poster but lacks price, variants, stock, shipping, returns, reviews, specs, or a clear add-to-cart path is not a complete PDP.
+
+### Cohort Course / Education Site
+
+Required sections:
+
+- First viewport: course or platform name, target audience, concrete learning outcome, start date or availability, application/enrollment CTA, and syllabus/tour secondary CTA.
+- Audience fit: who it is for, who it is not for, prerequisites, role level, and time commitment.
+- Learning proof: specific outcomes, student deliverables, curriculum modules, projects, assignments, critique/feedback mechanics, and completion artifact.
+- Instructor trust: instructor/faculty bio, real work, companies or credentials, teaching track record, student work, and alumni or employer proof.
+- Enrollment decision: tuition, cohort size, dates, refund policy, certificate/access duration, enterprise option, and FAQ.
+- SEO/information architecture: course detail, course catalog or category page, learning path/certificate page, instructor profile, student outcomes, FAQ/refund page, and long-tail resource pages where useful.
+
+Failure pattern: a course page with a strong hero and testimonials but no curriculum, outcomes, instructor proof, time commitment, tuition, refund rule, or student deliverable feels like a generic SaaS landing page.
+
+### High-Trust Financial Product Site
+
+Required sections:
+
+- First viewport: company/product category, target user, value proposition, eligibility CTA, and nearby disclosure of company identity, partner bank/underwriter/broker role, or approval limits.
+- Regulatory clarity: explain whether the company is a bank, broker, insurer, agent, lender, fintech, or comparison service; name partners and geographic availability where relevant.
+- Risk disclosure: put key limits near CTA, not only in the footer; avoid unqualified guaranteed, risk-free, insured, free, or best claims.
+- Security evidence: MFA, encryption, audit logs, permission controls, SOC 2/PCI or equivalent proof, vulnerability disclosure, and data-revocation paths.
+- Money-flow transparency: fees, spread, APR/APY, premium, claim flow, payout timing, account approval, insurance limits, and what happens when the user cancels.
+- Form confidence and support: sensitive-field labels, review step, consent language, error recovery, human support, complaint/contact path, and FAQ for anxiety questions.
+- SEO/E-E-A-T: updated dates, company identity, reviewer/author where advice is present, source notes, FAQ, and YMYL-safe language.
+
+Failure pattern: a financial page that uses trust words but hides fees, risk, partner identity, eligibility, or support behind tiny footer legalese should be treated as unfinished and potentially unsafe.
+
 ## Style Mapping
 
 - Bold Signal / Electric Studio: SaaS, operations, institutional product pages.
@@ -85,6 +128,8 @@ Failure pattern: premium service sites can be atmospheric, but if they lack case
 - Creative Voltage / Neon Cyber: events, launches, conferences, expressive campaigns.
 - Vintage Editorial / Swiss Modern / Vellum: reports, magazines, essays, thought-leadership sites.
 - Dark Botanical / Studio / Signal: premium service firms, studios, portfolio/case-study sites.
+- Soft Editorial / Material / Vellum: ecommerce product pages where texture, material, and review evidence matter.
+- Signal / Vellum / Swiss Modern: high-trust financial, insurance, legal, or compliance-heavy landing pages.
 
 ## Required Website Behavior
 
@@ -118,6 +163,7 @@ Before delivery:
 - Check the body sections match the archetype requirements above.
 - Check each page has concrete sample content instead of generic labels.
 - Check the visible screenshot against strong industry examples in the same category: product pages need product proof, docs need search/tasks, events need date/tickets, editorial needs authorship/chapters, service sites need cases/method.
+- Check industry-specific blockers: ecommerce needs price/variants/shipping/returns/reviews; education needs outcomes/curriculum/instructor/tuition/refund; financial needs disclosures/security/fees/money-flow/support.
 - Check mobile layout does not overlap, clip important text, or hide conversion actions.
 - If deployed, verify the website index and every sample page return HTTP 200.
 
@@ -160,3 +206,6 @@ When running a sustained feedback loop across industries:
 - Premium service/studio pages improve when mood gives way to evidence: ICP, named case studies, challenge/intervention/outcome, method deliverables, founder/team trust, and qualification CTA.
 - Hero visuals should become industry objects, not decorative posters: SaaS product UI, docs shell, event poster/ticket/agenda, editorial cover/table of contents, studio case file.
 - Multi-page mini-systems are the next step once a single-page archetype hits diminishing returns. A tiny but linked system often teaches the skill more than another section on the same page.
+- Ecommerce PDP is a high-value next calibration category because it makes visual systems answer concrete purchase questions: price, variant, stock, delivery, return, warranty, reviews, and product inspection.
+- Education/course pages should be scored by reduced enrollment uncertainty: target learner, concrete outcome, curriculum depth, instructor proof, cohort mechanics, tuition/refund, and student work.
+- High-trust financial pages should use conservative language and visible boundaries. If partner identity, risk, fees, approval limits, and support are not clear near conversion, the design is incomplete regardless of polish.
