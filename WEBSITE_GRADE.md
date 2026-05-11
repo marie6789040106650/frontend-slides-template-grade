@@ -26,6 +26,7 @@ Use these as calibration samples before broad generation:
 - **Nonprofit / donation site**: mission, donation form, impact amounts, recurring gift controls, tax status, financial transparency, donor privacy, volunteer/ways-to-give paths, post-donation feedback.
 - **Public service / government transactional site**: official service identity, eligibility, start page, materials, step-by-step form, error recovery, check answers, confirmation, status, privacy, accessibility, assisted digital support.
 - **Marketplace / listing directory site**: search, filters, list/detail comparison, provider or product profile, verified reviews, pricing/fees, availability, quote/booking CTA, no-result recovery, sponsored/verification boundaries, SEO landing pages.
+- **AI model transparency / developer platform site**: model catalog, model cards, benchmarks with methodology, pricing units, docs/API, safety/trust, evals, status, changelog, deprecation and migration notes.
 
 ## Archetype Structure Requirements
 
@@ -233,6 +234,21 @@ Required sections:
 - SEO system: category pages, city/location pages, comparison pages, alternatives pages, FAQ, breadcrumbs, and structured data for listings and local/business entities.
 
 Failure pattern: a marketplace sample with a beautiful hero and generic cards but no search results, filters, detail page, pricing, reviews, verification boundary, no-result state, or SEO content network is not a marketplace.
+
+### AI Model Transparency / Developer Platform Site
+
+Required sections:
+
+- First viewport: platform or model family name, target developer use case, current model/version, model comparison CTA, model-card path, pricing/status/safety proof nearby.
+- Model catalog: model ids, version dates, modalities, context windows, output limits, deprecation state, intended use, and migration notes.
+- Model card: model id, release date, capabilities, intended use, limitations/misuse boundaries, training or post-training summary where appropriate, eval table, safety notes, API snippet, changelog.
+- Benchmarks: score, dataset/source, sample or suite notes, baseline, date, contamination/leakage caveat, selection bias caveat, and what the score does not prove.
+- Pricing: input/output/cached/batch or modality units, rate limits, free tier or minimums, enterprise/region notes, calculator example, and billing boundary.
+- Safety and trust: risk domains, mitigations, internal vs external evals, red-team or audit summary, privacy/data-retention controls, vulnerability/safety contact.
+- Status and operations: component-level status, incident timeline, affected components, last updated time, RSS/API/status history, and maintenance notes.
+- Docs and changelog: quickstart, SDK/REST, parameters, errors, rate limits, migration guide, model deprecation, and pricing/API breaking changes kept in sync.
+
+Failure pattern: an AI platform page that markets a "best model" but omits versioning, model-card fields, benchmark methodology, pricing units, safety boundaries, status components, docs, or changelog is not transparent enough for developers.
 
 ## Style Mapping
 
