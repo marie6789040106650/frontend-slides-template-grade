@@ -307,6 +307,7 @@ When running a sustained feedback loop across industries:
 - Event/conference samples should graduate from "poster plus speakers" to a registration mini-system: date, venue, agenda, speaker proof, ticket tiers, inclusions, refund/transfer policy, accessibility, travel/venue logistics, sponsor trust, and a mobile-obvious ticket path.
 - Editorial/publication pages have the most remaining design space: issue architecture, article metadata, author credibility, archive/feed rhythm, newsletter/subscription paths, and long-form reading hierarchy.
 - Editorial scoring should penalize fake navigation: Archive, Essays, Subscribe, or Author labels must lead to real pages or credible page states, not empty anchors.
+- Editorial/publication samples should graduate from "beautiful issue cover" to a publication mini-system: issue page, article page, author profile, archive taxonomy, newsletter page, editorial policy, correction/disclosure/source-note boundaries, reading time, and mobile-readable longform.
 - Research report pages need report-specific signals: page count, methodology, contributors, data sources, revision history, citation format, and download/HTML reading paths.
 - Premium service/studio pages improve when mood gives way to evidence: ICP, named case studies, challenge/intervention/outcome, method deliverables, founder/team trust, and qualification CTA.
 - Hero visuals should become industry objects, not decorative posters: SaaS product UI, docs shell, event poster/ticket/agenda, editorial cover/table of contents, studio case file.
