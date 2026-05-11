@@ -40,6 +40,7 @@ Required sections:
 - Task paths: install, authenticate, troubleshoot, migrate, configure, or publish cards with concrete time or difficulty cues.
 - Reference surface: API/category navigation, code block, version selector, changelog, or troubleshooting route.
 - Maintenance signal: latest version, updated date, release notes, or support path.
+- If the sample can span multiple pages, include at least a quickstart page, API endpoint/reference page, search results state, troubleshooting page, changelog page, and LLM-readable entry such as `llms.txt` or Markdown copy path.
 
 Failure pattern: a docs page without search, code, quick paths, or version context is only an editorial landing page wearing a docs aesthetic.
 
@@ -62,6 +63,7 @@ Required sections:
 - Browsing structure: findings, chapter list, article cards, archive, or table of contents.
 - Reading proof: quotes, charts, annotations, source notes, or methodology.
 - Continuity: subscribe, download, print/PDF, archive, or next issue path.
+- If the sample can span multiple pages, include an issue detail, article page, archive/feed page, newsletter/subscription page, author page, and topic or research hub.
 
 Failure pattern: editorial style without authorship, issue metadata, and article/chapter entry points feels like a poster, not a publication.
 
@@ -150,7 +152,11 @@ When running a sustained feedback loop across industries:
 - Navigation labels should name real user decisions: Product, Integrations, Security; Quickstart, API, Changelog; Speakers, Agenda, Tickets; Issue, Essays, Archive; Cases, Method, Results.
 - SaaS remains worth iterating until the page shows a believable product workflow, ICP, role paths, differentiated integrations, security/procurement proof, and self-serve evaluation CTAs.
 - Docs remains worth iterating until it behaves like a documentation shell: search, left navigation, quickstart path, API reference, changelog, troubleshooting, and version/update context.
+- Docs scoring should weight structure over visual taste: information architecture, search UX, docs shell, endpoint quality, task completion, troubleshooting depth, changelog awareness, and LLM readability.
 - Event pages approach structural bottleneck faster than other categories: once date, location, speakers, agenda, tickets, venue, sponsor proof, and registration path are visible, gains depend more on real content and checkout flow.
 - Editorial/publication pages have the most remaining design space: issue architecture, article metadata, author credibility, archive/feed rhythm, newsletter/subscription paths, and long-form reading hierarchy.
+- Editorial scoring should penalize fake navigation: Archive, Essays, Subscribe, or Author labels must lead to real pages or credible page states, not empty anchors.
+- Research report pages need report-specific signals: page count, methodology, contributors, data sources, revision history, citation format, and download/HTML reading paths.
 - Premium service/studio pages improve when mood gives way to evidence: ICP, named case studies, challenge/intervention/outcome, method deliverables, founder/team trust, and qualification CTA.
 - Hero visuals should become industry objects, not decorative posters: SaaS product UI, docs shell, event poster/ticket/agenda, editorial cover/table of contents, studio case file.
+- Multi-page mini-systems are the next step once a single-page archetype hits diminishing returns. A tiny but linked system often teaches the skill more than another section on the same page.
