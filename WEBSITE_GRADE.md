@@ -25,6 +25,7 @@ Use these as calibration samples before broad generation:
 - **Careers / recruiting site**: job search, role detail, salary/location/remote policy, hiring process, EEO, accommodations, candidate privacy, mobile apply.
 - **Nonprofit / donation site**: mission, donation form, impact amounts, recurring gift controls, tax status, financial transparency, donor privacy, volunteer/ways-to-give paths, post-donation feedback.
 - **Public service / government transactional site**: official service identity, eligibility, start page, materials, step-by-step form, error recovery, check answers, confirmation, status, privacy, accessibility, assisted digital support.
+- **Marketplace / listing directory site**: search, filters, list/detail comparison, provider or product profile, verified reviews, pricing/fees, availability, quote/booking CTA, no-result recovery, sponsored/verification boundaries, SEO landing pages.
 
 ## Archetype Structure Requirements
 
@@ -218,6 +219,20 @@ Required sections:
 - Language and tone: write for task completion, not persuasion; CTA labels should name the action such as "Start application", "Check eligibility", or "Submit application".
 
 Failure pattern: a public-service page that looks official but lacks eligibility, form states, error recovery, check answers, confirmation, privacy/data-use notice, or assisted support is a brochure, not a service.
+
+### Marketplace / Listing Directory Site
+
+Required sections:
+
+- First viewport: marketplace category, location or search intent, search CTA, result count or supply signal, trust cue, and a path to compare real listings.
+- Listing page: query, location/category semantics, selected filters, sort, result count, listing cards with image or concrete preview, name, rating, review count, price/range, availability, location, key tags, and primary CTA.
+- Detail page: provider/product summary, photos or evidence, credentials or verification, pricing model, availability, reviews, policies, comparable alternatives, and booking/quote CTA.
+- Filters and states: selected chips, clear/reset, sorting, no-result/empty state with recovery suggestions, and sponsored/organic labeling where relevant.
+- Trust and marketplace rules: verified review definition, license/insurance/badge boundary, platform fee/commission, cancellation/refund rules, dispute support, and privacy for quote/contact sharing.
+- Review system: rating distribution, review count, recency, verified marker, positive/negative summary, and provider/business reply or moderation policy.
+- SEO system: category pages, city/location pages, comparison pages, alternatives pages, FAQ, breadcrumbs, and structured data for listings and local/business entities.
+
+Failure pattern: a marketplace sample with a beautiful hero and generic cards but no search results, filters, detail page, pricing, reviews, verification boundary, no-result state, or SEO content network is not a marketplace.
 
 ## Style Mapping
 
