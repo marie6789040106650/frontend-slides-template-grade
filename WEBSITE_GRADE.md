@@ -28,6 +28,7 @@ Use these as calibration samples before broad generation:
 - **Marketplace / listing directory site**: search, filters, list/detail comparison, provider or product profile, verified reviews, pricing/fees, availability, quote/booking CTA, no-result recovery, sponsored/verification boundaries, SEO landing pages.
 - **AI model transparency / developer platform site**: model catalog, model cards, benchmarks with methodology, pricing units, docs/API, safety/trust, evals, status, changelog, deprecation and migration notes.
 - **Operations dashboard / admin console**: scope navigation, KPI cards, charts, dense data table, filters, saved views, row/bulk actions, exports, permissions, audit trail, loading/empty/error/permission states.
+- **Insurance claim / high-trust transaction flow**: incident type, policy/identity lookup, dynamic evidence checklist, upload receipts, estimate boundary, claim status center, notifications, human review, privacy and support.
 
 ## Archetype Structure Requirements
 
@@ -265,6 +266,20 @@ Required sections:
 - States and permissions: loading skeleton, first-run empty, filtered no-results, API timeout, stale data, permission denied, disabled actions, and role explanation.
 
 Failure pattern: a dashboard sample with beautiful KPI cards but no table, filters, row actions, saved views, exports, permissions, audit trail, or error/empty/loading states is a landing-page graphic, not an admin console.
+
+### Insurance Claim / High-Trust Transaction Flow
+
+Required sections:
+
+- First viewport: claim type, who can file, start/track CTA, policy or guest lookup path, what to prepare, expected timing, and emergency/human support route.
+- Intake flow: incident type, identity/policy lookup, event details, dynamic evidence checklist by claim type, confirmation/review page, and submit receipt.
+- Evidence upload: accepted formats and limits, photo guidance, preview, progress, received timestamp, delete/replace, failure reason, retry path, and no lost form data after upload failure.
+- Claim center: claim ID, current stage, who is reviewing, missing evidence, next user action, expected next update, submitted files, history, documents, and downloadable estimate/decision.
+- Estimate and payment: explain that photo estimates are initial, supplement path, repair-shop or payment options, disagreement/human-review path, and what changes the final amount.
+- Notifications: email, SMS, app push, representative message, quiet hours, and clear triggers such as missing evidence, estimate ready, payment sent, or status changed.
+- Privacy and support: data use near sensitive uploads, retention/sharing, approved repair partners, phone/chat/TTY/assisted route, emergency boundary, and accessibility alternatives.
+
+Failure pattern: a claim-flow sample that only collects a form but lacks upload receipts, status timeline, estimate boundaries, missing-evidence recovery, notifications, privacy near upload, or human escalation will not feel trustworthy.
 
 ## Style Mapping
 
