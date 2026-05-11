@@ -299,6 +299,7 @@ When running a sustained feedback loop across industries:
 - The strongest samples keep a signature template visual in the hero while giving the body a category-specific job.
 - Navigation labels should name real user decisions: Product, Integrations, Security; Quickstart, API, Changelog; Speakers, Agenda, Tickets; Issue, Essays, Archive; Cases, Method, Results.
 - SaaS remains worth iterating until the page shows a believable product workflow, ICP, role paths, differentiated integrations, security/procurement proof, and self-serve evaluation CTAs.
+- B2B SaaS samples should graduate from "dashboard screenshot plus logos" to an evaluation mini-system: product tour, role-specific workflow, integrations, security/procurement page, pricing or plan-fit guidance, implementation expectations, proof metrics, and one primary demo or trial path.
 - Docs remains worth iterating until it behaves like a documentation shell: search, left navigation, quickstart path, API reference, changelog, troubleshooting, and version/update context.
 - Docs scoring should weight structure over visual taste: information architecture, search UX, docs shell, endpoint quality, task completion, troubleshooting depth, changelog awareness, and LLM readability.
 - Event pages approach structural bottleneck faster than other categories: once date, location, speakers, agenda, tickets, venue, sponsor proof, and registration path are visible, gains depend more on real content and checkout flow.
