@@ -18,6 +18,9 @@ Use these as calibration samples before broad generation:
 - **Ecommerce product detail page**: product media, price, variants, stock, shipping, returns, reviews, material/spec proof, add-to-cart CTA.
 - **Cohort course / education site**: audience fit, learning outcomes, curriculum, instructor proof, cohort mechanics, tuition, FAQ/application CTA.
 - **High-trust financial product site**: regulatory identity, disclosures, security evidence, fee transparency, money-flow clarity, support, eligibility CTA.
+- **Healthcare clinic / health service site**: appointment paths, provider credentials, location, insurance, privacy, emergency boundaries, patient preparation.
+- **Real estate / property / rental site**: location search, map context, price, availability, listing facts, agent trust, fees, showing/apply CTA, fair-housing disclosure.
+- **Hospitality / restaurant / hotel site**: menu or rooms, reservations, location, hours, reviews, real imagery, accessibility, cancellation or booking policy.
 
 ## Archetype Structure Requirements
 
@@ -121,6 +124,45 @@ Required sections:
 
 Failure pattern: a financial page that uses trust words but hides fees, risk, partner identity, eligibility, or support behind tiny footer legalese should be treated as unfinished and potentially unsafe.
 
+### Healthcare Clinic / Health Service Site
+
+Required sections:
+
+- First viewport: service type, appointment CTA, provider/location/insurance paths, phone, and emergency boundary for urgent symptoms.
+- Care routing: new vs returning patient, in-person vs virtual, primary vs urgent vs specialist, and clear visit types.
+- Trust evidence: licensed providers, specialties, credentials, clinic location, medical review or updated date for educational content.
+- Insurance and billing: accepted plans, self-pay estimate, financial assistance, billing contact, and visit-prep guidance.
+- Privacy and safety: HIPAA-ready portal note, Notice of Privacy Practices path, secure forms, telehealth limits, and no marketing-pixel assumption on sensitive flows.
+- Accessibility and inclusion: language access, TTY or contact alternative, keyboard-readable forms, clear text, and emergency guidance.
+
+Failure pattern: a healthcare page that uses calming visuals but hides appointment paths, provider credentials, insurance, privacy, or emergency boundaries is not a responsible health-service website.
+
+### Real Estate / Property / Rental Site
+
+Required sections:
+
+- First viewport: buy/rent/listing context, location, price, bed/bath/area, availability/status, and schedule-tour or contact CTA.
+- Search or map context: location search, filters, neighborhood, commute, school/POI, or map/list toggle depending on site type.
+- Listing detail: gallery or media, floor plan, amenities, address, building facts, price history or rent estimate, and agent/contact path.
+- Price and availability: base rent or listing price, move-in/open-house date, mandatory fees, deposit/application fee, lease term, or status changes.
+- Agent and trust: agent/broker identity, license/office, response path, reviews or transaction evidence.
+- Compliance: Equal Housing/Fair Housing, MLS/IDX or data-source disclaimer, price/availability change note, privacy, accessibility, and anti-scam guidance for rentals.
+
+Failure pattern: a property page with attractive interiors but no price, address, availability, map context, fees, or showing path fails the real decision.
+
+### Hospitality / Restaurant / Hotel / Local Experience Site
+
+Required sections:
+
+- First viewport: venue/experience type, booking CTA, location, hours or date availability, and phone/directions path on mobile.
+- Offer details: restaurant HTML menu or tasting policy; hotel rooms with rate, size, bed, view, amenities; experience itinerary, duration, meeting point, and difficulty.
+- Booking confidence: cancellation, deposit, service fee, weather/seasonal rules, dietary/accessibility notes, direct booking perks, or private-event inquiry.
+- Location and local SEO: address, NAP consistency, map/directions, parking/transit, opening hours by service, and crawlable menu/room text.
+- Trust and imagery: real space/dish/room/experience images, reviews, rating, press or guest proof, and alt text.
+- Accessibility and mobile action: accessible entrance/rooms/seating/activity notes plus sticky or easy mobile actions for call, reserve, directions, and book.
+
+Failure pattern: hospitality pages can be atmospheric, but if users cannot see menu/rooms, hours, location, reviews, and reservation path quickly, the design is only a mood piece.
+
 ## Style Mapping
 
 - Bold Signal / Electric Studio: SaaS, operations, institutional product pages.
@@ -130,6 +172,9 @@ Failure pattern: a financial page that uses trust words but hides fees, risk, pa
 - Dark Botanical / Studio / Signal: premium service firms, studios, portfolio/case-study sites.
 - Soft Editorial / Material / Vellum: ecommerce product pages where texture, material, and review evidence matter.
 - Signal / Vellum / Swiss Modern: high-trust financial, insurance, legal, or compliance-heavy landing pages.
+- Paper & Ink / Grove / Blue Professional: healthcare clinics, patient portals, insurance/billing pages, and health libraries.
+- Swiss Modern / Signal / Long Table: real-estate search, listing detail, floor-plan availability, and market-report pages.
+- Vintage Editorial / Soft Editorial / Long Table: restaurants, boutique hotels, tasting menus, room pages, and local experiences.
 
 ## Required Website Behavior
 
@@ -164,6 +209,7 @@ Before delivery:
 - Check each page has concrete sample content instead of generic labels.
 - Check the visible screenshot against strong industry examples in the same category: product pages need product proof, docs need search/tasks, events need date/tickets, editorial needs authorship/chapters, service sites need cases/method.
 - Check industry-specific blockers: ecommerce needs price/variants/shipping/returns/reviews; education needs outcomes/curriculum/instructor/tuition/refund; financial needs disclosures/security/fees/money-flow/support.
+- Check sensitive-service blockers: healthcare needs emergency boundaries and privacy; real estate needs price/map/fees/compliance; hospitality needs booking/menu-or-room/location/hours/mobile actions.
 - Check mobile layout does not overlap, clip important text, or hide conversion actions.
 - If deployed, verify the website index and every sample page return HTTP 200.
 
@@ -209,3 +255,6 @@ When running a sustained feedback loop across industries:
 - Ecommerce PDP is a high-value next calibration category because it makes visual systems answer concrete purchase questions: price, variant, stock, delivery, return, warranty, reviews, and product inspection.
 - Education/course pages should be scored by reduced enrollment uncertainty: target learner, concrete outcome, curriculum depth, instructor proof, cohort mechanics, tuition/refund, and student work.
 - High-trust financial pages should use conservative language and visible boundaries. If partner identity, risk, fees, approval limits, and support are not clear near conversion, the design is incomplete regardless of polish.
+- Healthcare is adjacent to financial high-trust work but adds patient safety: booking UX, medical credentials, insurance, privacy, emergency guidance, accessibility, and YMYL-safe health claims.
+- Real estate is an excellent stress test for layout because it needs search, map context, listing facts, price/availability, contact, and legal disclosure in the same flow.
+- Hospitality should keep atmosphere, but never at the cost of action: menu or room details, hours, location, reviews, phone, directions, booking, cancellation, and accessibility must remain visible.
