@@ -30,6 +30,7 @@ Use these as calibration samples before broad generation:
 - **Operations dashboard / admin console**: scope navigation, KPI cards, charts, dense data table, filters, saved views, row/bulk actions, exports, permissions, audit trail, loading/empty/error/permission states.
 - **Insurance claim / high-trust transaction flow**: incident type, policy/identity lookup, dynamic evidence checklist, upload receipts, estimate boundary, claim status center, notifications, human review, privacy and support.
 - **Subscription media / streaming service site**: searchable catalog, title detail, preview/playback, plans and trial terms, cancellation, watchlist, profiles, accessibility, downloads, account and data controls.
+- **Community / social membership platform**: onboarding, room/channel discovery, feed/detail pages, profile setup, rules, moderation, reporting/blocking, notifications, privacy, data controls, and member-safety states.
 
 ## Archetype Structure Requirements
 
@@ -295,6 +296,19 @@ Required sections:
 
 Failure pattern: a streaming sample that is only a poster wall with a signup CTA but lacks catalog filters, title detail, playback/accessibility states, plan terms, cancellation, account controls, or data/device management is not a complete subscription media product.
 
+### Community / Social Membership Platform
+
+Required sections:
+
+- First viewport: community identity, intended audience, join/onboarding CTA, browse rooms secondary path, clear safety/rules cue, and a signal of moderation cadence or member scale.
+- Onboarding: interests, community guidelines, room recommendations, profile setup, first-post prompt, notification defaults, and what happens during first-post review.
+- Rooms and feed: room directory, room purpose, member count, pinned rules, search/filter, active thread examples, content warning, saved threads, and room mute/leave controls.
+- Profile and social graph: display name, role, optional identity fields, featured links, availability, DM permissions, visibility settings, and profile privacy.
+- Safety and moderation: report post, block/mute member, content warning, moderator note, review queue, action explanation, appeal path, and transparency around what moderators can see.
+- Notifications and privacy: mentions, digests, room mute, quiet hours, moderation alerts, email/app/in-app delivery, data export, deletion, retention notes, and account boundary controls.
+
+Failure pattern: a community sample that shows chat cards or member avatars but lacks onboarding, rules, room purpose, moderation/reporting/blocking, notification controls, profile privacy, or data boundaries will feel unsafe and unfinished.
+
 ## Style Mapping
 
 - Bold Signal / Electric Studio: SaaS, operations, institutional product pages.
@@ -309,6 +323,7 @@ Failure pattern: a streaming sample that is only a poster wall with a signup CTA
 - Vintage Editorial / Soft Editorial / Long Table: restaurants, boutique hotels, tasting menus, room pages, and local experiences.
 - Signal / Paper & Ink / Vellum: law firms, policy consultancies, professional-services practices, and reputation-sensitive advisory sites.
 - Electric Studio / Notebook Tabs / Swiss Modern: careers pages, job boards, hiring-process pages, and technical recruiting sites.
+- Notebook Tabs / Creative Voltage / Paper & Ink: community platforms, learning circles, member directories, and moderated social products.
 
 ## Required Website Behavior
 
@@ -370,6 +385,7 @@ Before delivery:
 - Check industry-specific blockers: ecommerce needs price/variants/shipping/returns/reviews; education needs outcomes/curriculum/instructor/tuition/refund; financial needs disclosures/security/fees/money-flow/support.
 - Check sensitive-service blockers: healthcare needs emergency boundaries and privacy; real estate needs price/map/fees/compliance; hospitality needs booking/menu-or-room/location/hours/mobile actions.
 - Check professional/candidate blockers: legal needs jurisdiction/attorney/disclaimer/intake boundary; careers needs role search/JD/salary/location/process/privacy.
+- Check social/community blockers: onboarding needs rules before feed; rooms need purpose and member context; users need reporting/blocking, moderation notes, notification controls, profile privacy, and data export/delete paths.
 - Check mobile layout does not overlap, clip important text, or hide conversion actions.
 - If deployed, verify the website index and every sample page return HTTP 200.
 
@@ -434,3 +450,5 @@ When running a sustained feedback loop across industries:
 - Careers pages are strongest when they respect candidate time: searchable roles, transparent ranges, location/remote expectations, interview steps, EEO/accommodations, and candidate data handling.
 - Careers/job-board samples should graduate from "culture page plus role cards" to a mini-system: searchable roles, role detail pages, candidate handbook, hiring process, privacy notice, EEO/accommodation path, and explicit remote/location constraints.
 - Real-estate/rental samples should graduate from "single attractive listing" to a listing system: searchable inventory, filters, floor-plan detail, fee and deposit disclosures, tour scheduling, neighborhood context, fair-housing language, anti-scam warnings, and fresh price/availability state.
+- Subscription-media samples should graduate from "poster wall plus signup" to a membership media system: browse/search catalog, title detail, playback preview, accessibility controls, trial and billing terms, cancellation, account/device/profile controls, watchlist, downloads, and data export/delete.
+- Community-platform samples should graduate from "chat-looking cards" to a moderated membership system: onboarding, room discovery, pinned rules, first-post prompt, member profiles, DM permissions, report/block/mute, moderation queue, appeals, notification digests, quiet hours, and privacy/data controls.
