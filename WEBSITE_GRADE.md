@@ -24,6 +24,7 @@ Use these as calibration samples before broad generation:
 - **Law firm / legal service site**: practice areas, attorney credentials, jurisdiction, disclaimer, consultation path, privacy-aware intake, no-result-guarantee boundary.
 - **Careers / recruiting site**: job search, role detail, salary/location/remote policy, hiring process, EEO, accommodations, candidate privacy, mobile apply.
 - **Nonprofit / donation site**: mission, donation form, impact amounts, recurring gift controls, tax status, financial transparency, donor privacy, volunteer/ways-to-give paths, post-donation feedback.
+- **Public service / government transactional site**: official service identity, eligibility, start page, materials, step-by-step form, error recovery, check answers, confirmation, status, privacy, accessibility, assisted digital support.
 
 ## Archetype Structure Requirements
 
@@ -204,6 +205,19 @@ Required sections:
 - Post-donation flow: thank-you/receipt state, share or invite option, monthly upgrade prompt, and next impact update expectation.
 
 Failure pattern: a nonprofit page with emotional imagery but no donation flow, tax/trust proof, amount-to-impact mapping, financial transparency, donor privacy, or post-gift feedback is only a cause poster.
+
+### Public Service / Government Transactional Site
+
+Required sections:
+
+- First viewport: service name, responsible agency, who can use it, start/continue CTA, estimated time, fee or no-fee statement, official identity, and help route.
+- Transaction path: start page, eligibility checker, materials checklist, task list or stepper, one-question page, save/return path, check answers, submit, confirmation, and status/next-steps page.
+- Form quality: labels, keyboard focus, input type hints, error summary, field-level error text, back button, save and continue, review-before-submit, and plain-language recovery.
+- Trust and safety: why data is collected, how it is used, retention or privacy notice, payment timing, processing time, alternate channels, assisted digital support, and accessibility statement.
+- Mobile completion: the core form flow must work on a phone without horizontal scrolling, hidden CTA, tiny controls, or tables that require pinch zoom.
+- Language and tone: write for task completion, not persuasion; CTA labels should name the action such as "Start application", "Check eligibility", or "Submit application".
+
+Failure pattern: a public-service page that looks official but lacks eligibility, form states, error recovery, check answers, confirmation, privacy/data-use notice, or assisted support is a brochure, not a service.
 
 ## Style Mapping
 
