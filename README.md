@@ -91,6 +91,7 @@ This enhanced skill was validated against a 44-page deployed gallery:
 - all 12 `frontend-slides` demos generated as 10-slide decks
 - 5 website-style calibration samples across SaaS, docs, event, editorial, and studio/service archetypes
 - website samples upgraded from generic style transfer into archetype-specific structures
+- second feedback-loop pass added industry-object hero visuals, SaaS workflow/role paths, docs shell cues, event ticket benefits, editorial metadata, and richer SEO metadata
 - visible placeholder scan passed
 - per-template preview/thumbnail audit passed
 - all 44 deployed pages returned HTTP 200

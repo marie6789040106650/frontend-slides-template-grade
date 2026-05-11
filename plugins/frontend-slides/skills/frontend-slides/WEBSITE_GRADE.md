@@ -131,9 +131,26 @@ For a new style-to-website system:
 6. Update this skill with the learned mappings, structure requirements, and failure patterns.
 7. Generate the next batch with the revised rules.
 
+## Iteration Order
+
+When running a sustained feedback loop across industries:
+
+1. Start with the industry that still has obvious structural gaps, not the one that is most visually exciting.
+2. Search mature industry examples and public UX/performance/SEO guidance in parallel.
+3. Apply one focused upgrade round to the sample pages.
+4. Screenshot the result at desktop first viewport and one body section.
+5. If the next gains are mostly content realism or data entry, mark that industry as near-bottleneck and move to the next industry.
+6. Return to near-bottleneck industries later with richer real content, images, screenshots, or interactions.
+
 ## Current Calibration Notes
 
 - Reducing hero scale often makes the same visual system feel more website-native. A deck-cover title can be beautiful and still push the CTA below the useful first viewport.
 - Generic "hero + proof + feature cards" pages are not enough for a style library. They show visual transfer but not website competence.
 - The strongest samples keep a signature template visual in the hero while giving the body a category-specific job.
 - Navigation labels should name real user decisions: Product, Integrations, Security; Quickstart, API, Changelog; Speakers, Agenda, Tickets; Issue, Essays, Archive; Cases, Method, Results.
+- SaaS remains worth iterating until the page shows a believable product workflow, ICP, role paths, differentiated integrations, security/procurement proof, and self-serve evaluation CTAs.
+- Docs remains worth iterating until it behaves like a documentation shell: search, left navigation, quickstart path, API reference, changelog, troubleshooting, and version/update context.
+- Event pages approach structural bottleneck faster than other categories: once date, location, speakers, agenda, tickets, venue, sponsor proof, and registration path are visible, gains depend more on real content and checkout flow.
+- Editorial/publication pages have the most remaining design space: issue architecture, article metadata, author credibility, archive/feed rhythm, newsletter/subscription paths, and long-form reading hierarchy.
+- Premium service/studio pages improve when mood gives way to evidence: ICP, named case studies, challenge/intervention/outcome, method deliverables, founder/team trust, and qualification CTA.
+- Hero visuals should become industry objects, not decorative posters: SaaS product UI, docs shell, event poster/ticket/agenda, editorial cover/table of contents, studio case file.
