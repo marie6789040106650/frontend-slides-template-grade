@@ -71,7 +71,8 @@ Determine what the user wants:
 - **Mode A: New Presentation** — Create from scratch. Go to Phase 1.
 - **Mode B: PPT Conversion** — Convert a .pptx file. Go to Phase 4.
 - **Mode C: Enhancement** — Improve an existing HTML presentation. Read it, understand it, enhance. **Follow Mode C modification rules below.**
-- **Mode D: Template/Gallery Production** — Create reusable templates, a public gallery, premium samples, or website pages derived from deck styles. Read [TEMPLATE_GRADE.md](TEMPLATE_GRADE.md) before asking style questions or generating code.
+- **Mode D: Template/Gallery Production** — Create reusable templates, a public gallery, or premium samples. Read [TEMPLATE_GRADE.md](TEMPLATE_GRADE.md) before asking style questions or generating code.
+- **Mode E: Website Translation** — Create websites or webpages derived from deck/template styles. Read [WEBSITE_GRADE.md](WEBSITE_GRADE.md) before generating code.
 
 ### Mode C: Modification Rules
 
@@ -186,6 +187,8 @@ If images were provided, the slide outline already incorporates them from Step 1
 3. Give each preset its own layout vocabulary, not just swapped colors and fonts.
 4. Create representative screenshot/thumbnail treatment for each template or gallery card.
 5. Run the template-grade audit before delivery: slide count, placeholder scan, desktop visual check, dense-slide check, and navigation check.
+
+**Website-grade mode:** If the user asks to turn deck/template styles into websites, landing pages, product pages, documentation portals, event pages, editorial sites, or service/case-study pages, read [WEBSITE_GRADE.md](WEBSITE_GRADE.md) before generating. In that mode, build real website flows rather than slide decks pasted into a scrolling page.
 
 **Before generating, read these supporting files:**
 
@@ -325,6 +328,7 @@ This captures each slide as a screenshot and combines them into a PDF. Perfect f
 | -------------------------------------------------- | -------------------------------------------------------------------- | ------------------------- |
 | [STYLE_PRESETS.md](STYLE_PRESETS.md)               | 12 curated visual presets with colors, fonts, and signature elements | Phase 2 (style selection) |
 | [TEMPLATE_GRADE.md](TEMPLATE_GRADE.md)             | Finished demo deck standard for reusable templates and galleries     | Phase 3 (template-grade)  |
+| [WEBSITE_GRADE.md](WEBSITE_GRADE.md)               | Website translation standard for turning deck styles into real pages | Phase 3 (website-grade)   |
 | [viewport-base.css](viewport-base.css)             | Mandatory responsive CSS — copy into every presentation              | Phase 3 (generation)      |
 | [html-template.md](html-template.md)               | HTML structure, JS features, code quality standards                  | Phase 3 (generation)      |
 | [animation-patterns.md](animation-patterns.md)     | CSS/JS animation snippets and effect-to-feeling guide                | Phase 3 (generation)      |

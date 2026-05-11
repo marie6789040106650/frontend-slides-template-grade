@@ -11,7 +11,9 @@ https://templates.inkblocklab.com/
 ## What Changed
 
 - Added **template-grade mode** for reusable deck templates, public galleries, premium samples, and website-style variants.
+- Added **website-grade mode** for translating deck/template styles into real websites.
 - Added `TEMPLATE_GRADE.md`, a stricter completion standard for authored demo decks.
+- Added `WEBSITE_GRADE.md`, a feedback-loop standard for B2B SaaS pages, docs portals, event sites, editorial/report sites, and high-end service/case-study sites.
 - Expanded the skill trigger description so it applies to template libraries and high-completion HTML samples, not only ordinary presentations.
 - Added a production checklist for:
   - 8-12 slide demo decks
@@ -43,6 +45,7 @@ Quality reference:
 | --- | --- |
 | `SKILL.md` | Main skill workflow and trigger rules |
 | `TEMPLATE_GRADE.md` | High-completion template/gallery standard |
+| `WEBSITE_GRADE.md` | Website translation and feedback-loop standard |
 | `STYLE_PRESETS.md` | 12 curated visual directions |
 | `viewport-base.css` | Mandatory viewport-safe base CSS |
 | `html-template.md` | HTML architecture and JS expectations |
@@ -75,7 +78,7 @@ Use this skill when asking for:
 - a website-style page based on a presentation aesthetic
 - a premium sample deck where visual completion matters
 
-For high-completion template work, the skill should read `TEMPLATE_GRADE.md` and run the template-grade audit before delivery.
+For high-completion template work, the skill should read `TEMPLATE_GRADE.md` and run the template-grade audit before delivery. For website work, it should read `WEBSITE_GRADE.md`, build real website flows, and feed the audit results back into future skill improvements.
 
 ## Validation Performed
 
