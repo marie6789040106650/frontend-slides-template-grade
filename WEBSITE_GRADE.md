@@ -316,3 +316,4 @@ When running a sustained feedback loop across industries:
 - Hospitality should keep atmosphere, but never at the cost of action: menu or room details, hours, location, reviews, phone, directions, booking, cancellation, and accessibility must remain visible.
 - Legal/professional-service pages should prioritize trust boundaries over bravado: practice fit, lawyer credentials, jurisdiction, no attorney-client relationship warning, and privacy-aware intake.
 - Careers pages are strongest when they respect candidate time: searchable roles, transparent ranges, location/remote expectations, interview steps, EEO/accommodations, and candidate data handling.
+- Careers/job-board samples should graduate from "culture page plus role cards" to a mini-system: searchable roles, role detail pages, candidate handbook, hiring process, privacy notice, EEO/accommodation path, and explicit remote/location constraints.
