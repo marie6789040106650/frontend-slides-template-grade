@@ -32,6 +32,7 @@ Use these as calibration samples before broad generation:
 - **Subscription media / streaming service site**: searchable catalog, title detail, preview/playback, plans and trial terms, cancellation, watchlist, profiles, accessibility, downloads, account and data controls.
 - **Community / social membership platform**: onboarding, room/channel discovery, feed/detail pages, profile setup, rules, moderation, reporting/blocking, notifications, privacy, data controls, and member-safety states.
 - **Travel planning / booking site**: destination/date/guest search, map and list comparison, filters, total price, itinerary builder, checkout, confirmation, saved trips, cancellation/change states, and no-availability recovery.
+- **Food delivery / online ordering site**: address-first availability, restaurant/menu browsing, item customization, cart, fee/tip/payment review, ETA tracking, courier contact, receipt, reorder, and support/refund states.
 
 ## Archetype Structure Requirements
 
@@ -324,6 +325,19 @@ Required sections:
 
 Failure pattern: a travel sample that is only a scenic hero or generic listing grid but lacks search, map context, filters, total-price clarity, editable itinerary, checkout review, confirmation, or cancellation/change states is not a credible booking product.
 
+### Food Delivery / Online Ordering Site
+
+Required sections:
+
+- First viewport: delivery/pickup address or location check, availability, ETA range, order CTA, reorder secondary path, and no-login browsing where possible.
+- Restaurant and menu browsing: open/closed state, cuisine/category filters, delivery/pickup toggle, ETA, delivery fee, minimum order, ratings, dietary labels, sold-out states, and restaurant courier vs platform courier boundary.
+- Item customization: required modifiers, optional add-ons, allergy or preparation notes, quantity, unavailable modifier recovery, price updates, and cart persistence after edits.
+- Cart and checkout: itemized subtotal, delivery fee, service fee, tax, tip, discount, minimum, delivery instructions, payment, guest checkout, and review-before-place-order.
+- Tracking: accepted, preparing, ready/picked up, en-route, delivered, ETA changes, live map or handoff state, courier/restaurant contact, and notification controls.
+- Support and receipt: receipt, reorder, rating, missing item, late order, wrong address, refund/credit status, support escalation, and evidence such as delivery photo or item list.
+
+Failure pattern: a food-ordering sample that only shows appetizing menu cards but lacks address availability, item modifiers, fee transparency, cart review, live tracking, courier contact, and support/refund states will leak trust at the exact moment users are hungry.
+
 ## Style Mapping
 
 - Bold Signal / Electric Studio: SaaS, operations, institutional product pages.
@@ -340,6 +354,7 @@ Failure pattern: a travel sample that is only a scenic hero or generic listing g
 - Electric Studio / Notebook Tabs / Swiss Modern: careers pages, job boards, hiring-process pages, and technical recruiting sites.
 - Notebook Tabs / Creative Voltage / Paper & Ink: community platforms, learning circles, member directories, and moderated social products.
 - Pastel Geometry / Signal / Swiss Modern: travel search, map/list booking flows, itinerary planners, and lightweight trip dashboards.
+- Long Table / Electric Studio / Bold Signal: food delivery flows, direct restaurant ordering, status tracking, and compact high-urgency checkout screens.
 
 ## Required Website Behavior
 
@@ -403,6 +418,7 @@ Before delivery:
 - Check professional/candidate blockers: legal needs jurisdiction/attorney/disclaimer/intake boundary; careers needs role search/JD/salary/location/process/privacy.
 - Check social/community blockers: onboarding needs rules before feed; rooms need purpose and member context; users need reporting/blocking, moderation notes, notification controls, profile privacy, and data export/delete paths.
 - Check travel blockers: search must be first-class; results need map/list context, persistent filters, total price, cancellation/payment policy, itinerary save path, checkout review, confirmation, and cancel/change recovery.
+- Check food-delivery blockers: address availability, ETA, fees, modifiers, cart review, tip/payment, tracking states, courier/restaurant contact, receipt, reorder, and refund/support routes must appear before the sample is considered complete.
 - Check mobile layout does not overlap, clip important text, or hide conversion actions.
 - If deployed, verify the website index and every sample page return HTTP 200.
 
@@ -470,3 +486,4 @@ When running a sustained feedback loop across industries:
 - Subscription-media samples should graduate from "poster wall plus signup" to a membership media system: browse/search catalog, title detail, playback preview, accessibility controls, trial and billing terms, cancellation, account/device/profile controls, watchlist, downloads, and data export/delete.
 - Community-platform samples should graduate from "chat-looking cards" to a moderated membership system: onboarding, room discovery, pinned rules, first-post prompt, member profiles, DM permissions, report/block/mute, moderation queue, appeals, notification digests, quiet hours, and privacy/data controls.
 - Travel-booking samples should graduate from "destination mood page" to a planning and booking system: date/guest search, map/list results, total-price cards, persistent filters, saved itinerary, checkout review, confirmation, cancellation/change state, support, and no-availability recovery.
+- Food-delivery samples should graduate from "menu gallery" to an order lifecycle system: address check, delivery/pickup availability, menu modifiers, cart and fee breakdown, guest checkout, ETA timeline, courier contact, receipt, reorder, and issue/refund handling.
