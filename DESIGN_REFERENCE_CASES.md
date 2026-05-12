@@ -23,9 +23,21 @@ For every case, observe:
 - Product or content evidence: what makes the claim inspectable?
 - Navigation model: how does the user compare, search, buy, read, book, or install?
 - Trust boundary: what risk, policy, price, privacy, support, or safety detail is visible?
+- Task proximity: how close are pricing, docs, install, checkout, booking, apply, compare, or support actions?
+- Product surface: what real object is shown: UI, table, docs shell, course path, checkout, catalog, case file, or status view?
 - Visual discipline: how color, typography, space, and imagery support rather than distract.
 - State coverage: loading, empty, selected, error, success, disabled, account, checkout, or confirmation states where relevant.
 - Mobile behavior: whether the core task survives narrow width.
+
+## Mature Pattern Triad
+
+When analyzing a known strong website, look for this triad:
+
+1. **Evidence density**: inspectable facts, not only claims.
+2. **Task proximity**: the next useful action is close and specifically labeled.
+3. **Product surface**: the evaluated product, content, or workflow is visible.
+
+If a generated sample lacks one of the three, use `DESIGN_SCORECARD.md` to decide whether it should be capped before polishing visuals.
 
 ## Indie AI SaaS / Micro-Product
 

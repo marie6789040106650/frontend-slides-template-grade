@@ -20,16 +20,18 @@ Score every template deck or website sample across these categories:
 
 | Category | Points | What To Judge |
 | --- | ---: | --- |
-| Intent and category fit | 12 | Audience, job, trust level, conversion path, emotional target. |
-| Information architecture | 14 | Category-specific structure, navigation, task flow, page/slide sequence. |
-| Visual hierarchy | 12 | First/second/third read, CTA visibility, contrast, scan path, balance. |
-| Layout grammar | 12 | Distinct stage geometry, chrome, repetition rules, variation rules. |
-| Typography | 8 | Display/body/label/number/caption fit, density, readability, mobile fit. |
-| Color strategy | 8 | Roles, hue relationship, contrast, state colors, action color discipline. |
-| Evidence and specificity | 12 | Concrete copy, prices, dates, metrics, policies, screenshots, examples. |
-| Interaction and states | 8 | Focus/hover, loading, empty, error, disabled, selected, success, recovery. |
-| Responsive and thumbnail quality | 8 | Mobile, long labels, dense sections, no overflow, representative thumbnail. |
-| Library distinctiveness | 6 | Adds a new layout family, content world, or reusable visual grammar. |
+| Intent and category fit | 10 | Audience, job, trust level, conversion path, emotional target. |
+| Information architecture | 12 | Category-specific structure, navigation, task flow, page/slide sequence. |
+| Visual hierarchy | 10 | First/second/third read, CTA visibility, contrast, scan path, balance. |
+| Layout grammar | 10 | Distinct stage geometry, chrome, repetition rules, variation rules. |
+| Typography | 7 | Display/body/label/number/caption fit, density, readability, mobile fit. |
+| Color strategy | 7 | Roles, hue relationship, contrast, state colors, action color discipline. |
+| Evidence and specificity | 11 | Concrete copy, prices, dates, metrics, policies, screenshots, examples. |
+| Task proximity | 7 | Next useful actions are close, specific, and recoverable. |
+| Product surface | 7 | Real product/content objects are shown instead of abstract placeholders. |
+| Interaction and states | 7 | Focus/hover, loading, empty, error, disabled, selected, success, recovery. |
+| Responsive and thumbnail quality | 7 | Mobile, long labels, dense sections, no overflow, representative thumbnail. |
+| Library distinctiveness | 5 | Adds a new layout family, content world, or reusable visual grammar. |
 
 ## Hard Caps
 
@@ -39,7 +41,9 @@ Apply caps after the numeric score. A capped sample cannot exceed the listed sco
 - Visible placeholder residue such as TODO, Lorem, `[Topic]`, or unfinished asset labels: max 50.
 - Mobile horizontal overflow, clipped core CTA, or unreadable mobile first viewport: max 60.
 - Missing primary CTA or no clear next action: max 65.
+- Vague next action labels only, with no concrete task path such as pricing, docs, checkout, booking, apply, install, or compare: max 68.
 - Page/deck is only a cover plus generic cards: max 65.
+- Abstract hero art replaces the product/content surface entirely: max 72.
 - Category-specific blocker is missing, such as product price, docs search, event date, course curriculum, service case proof, or dashboard table: max 70.
 - Color contrast fails for body text or critical UI controls: max 70.
 - Navigation points to empty anchors or fake pages in a multi-page sample: max 72.

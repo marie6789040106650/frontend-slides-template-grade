@@ -19,9 +19,11 @@ Evaluate in this order:
 5. **Typography**: Do display, body, label, number, caption, and code styles serve the content density?
 6. **Color strategy**: Do color roles support hierarchy, state, action, mood, and readability?
 7. **Evidence**: Are claims supported by concrete copy, dates, numbers, examples, screenshots, policies, or process detail?
-8. **Interaction and states**: Are hover, focus, loading, empty, error, disabled, success, selected, and active states designed where relevant?
-9. **Responsive behavior**: Does the same design survive mobile, dense content, narrow buttons, long labels, and thumbnails?
-10. **Library distinctiveness**: Does this sample add a new layout family or visual grammar to the library?
+8. **Task proximity**: Is the next useful action close, concrete, and recoverable?
+9. **Product surface**: Does the design show real product/content objects instead of abstract decoration?
+10. **Interaction and states**: Are hover, focus, loading, empty, error, disabled, success, selected, and active states designed where relevant?
+11. **Responsive behavior**: Does the same design survive mobile, dense content, narrow buttons, long labels, and thumbnails?
+12. **Library distinctiveness**: Does this sample add a new layout family or visual grammar to the library?
 
 If a lower layer is beautiful but an earlier layer fails, the design is not finished.
 
@@ -112,6 +114,36 @@ Replace generic claims with concrete proof:
 - Boundaries: refunds, cancellation, privacy, support, eligibility, scope, jurisdiction, accessibility.
 
 Failure pattern: the design looks premium but says nothing inspectable.
+
+## Task Proximity Check
+
+The next useful action should be close to the user's current question:
+
+- SaaS: product tour, pricing, integrations, security, demo, trial.
+- Docs/developer tools: quickstart, install, API reference, examples, troubleshooting, changelog.
+- Ecommerce: variant, price, stock, shipping, returns, reviews, cart.
+- Course: curriculum, dates, tuition, instructor, application, refund.
+- Event: agenda, speakers, tickets, venue, refund/transfer.
+- Service/studio: cases, method, fit, scope, budget signal, consultation.
+- Community: onboarding, rooms, rules, notifications, privacy, moderation.
+
+Check that primary actions are not buried behind vague labels like "Learn more" when a more specific action exists.
+
+Failure pattern: the user understands the pitch but has to hunt for the next decision path.
+
+## Product Surface Check
+
+Mature sites show the thing being evaluated:
+
+- Product UI, workflow, dashboard, table, command center, editor, or checkout.
+- Docs shell, search result, API endpoint, code example, changelog.
+- Course path, module list, assignment, student artifact.
+- Product media, variant picker, cart preview, review summary.
+- Case file, process board, quote desk, booking flow, room directory, issue archive.
+
+Use abstract visuals only when they clarify the system. Do not let them replace evidence.
+
+Failure pattern: beautiful shapes stand in for the product, so the page cannot be evaluated.
 
 ## Interaction And State Check
 

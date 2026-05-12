@@ -58,10 +58,22 @@ For every website sample, answer these internally before writing code:
 - What is the first, second, and third thing the eye should notice?
 - What layout family does this sample add to the library?
 - Which concrete evidence makes the page inspectable?
+- Which product/content surface proves the offer is real?
+- Which next action is closest to the user's decision: pricing, docs, install, checkout, booking, apply, compare, donate, or contact?
 - Which interaction states are required for this category?
 - What should remain visible or recoverable on mobile?
 
 Failure pattern: a page that is visually attractive but cannot explain what the visitor should evaluate, trust, or do next.
+
+## Evidence Density, Task Proximity, Product Surface
+
+Mature websites usually win through three practical qualities:
+
+- **Evidence density**: claims are backed by concrete facts such as prices, plans, dates, customer examples, metrics, version numbers, policies, screenshots, or status rows.
+- **Task proximity**: the user's next decision path is one click away and uses specific labels such as Pricing, Quickstart, Install, Compare plans, Book table, Apply, Donate, View case, or Start checkout.
+- **Product surface**: the page shows the thing being evaluated: product UI, docs shell, checkout, course path, dashboard table, menu, itinerary, catalog, case file, issue archive, or booking flow.
+
+Score down pages that use abstract shapes, generic benefits, or vague "Learn more" links when a concrete product surface or action path should exist.
 
 ## Color Translation Requirements
 
