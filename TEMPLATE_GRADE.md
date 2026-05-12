@@ -20,6 +20,8 @@ Every template-grade deck needs:
 
 Use high-completion HTML template libraries as the bar: the sample should look like an authored deck someone intentionally published, not a preset demonstration with filler text.
 
+Before judging visual polish, read `DESIGN_JUDGMENT.md`. A template-grade deck must pass intent, hierarchy, layout grammar, typography, color, evidence, viewport, and library-distinctiveness checks.
+
 ## Production Modes
 
 Use this standard for:
@@ -57,6 +59,21 @@ When producing multiple presets, each preset must differ in more than color and 
 - Change chrome and navigation vocabulary: tabs, section numbers, marks, rules, command prompts, margins, badges, or footers.
 - Give each deck a matching content world: launch brief, research memo, release notes, manifesto, operating review, product map, community launch, etc.
 - Avoid one repeated 10-slide skeleton unless the visual system materially changes the reading experience.
+- Track what each preset adds to the library: a new stage geometry, chrome vocabulary, content world, thumbnail language, or interaction metaphor.
+
+Failure pattern: a gallery where every deck is effectively the same visual system with different swatches.
+
+## Design Judgment Audit
+
+Before delivery, run the short audit from `DESIGN_JUDGMENT.md`:
+
+- Intent: audience, job, trust level.
+- Strongest decision: what the design now does especially well.
+- Weakest risk: why it may still feel unfinished.
+- Next iteration: 1-3 focused improvements.
+- Do not change: one successful visual rule to preserve.
+
+Use this audit to improve the file before presenting it. Only surface the audit to the user when it helps the conversation.
 
 ## Visual Requirements
 

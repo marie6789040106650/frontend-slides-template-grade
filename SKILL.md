@@ -186,7 +186,7 @@ If images were provided, the slide outline already incorporates them from Step 1
 2. Produce a finished 8-12 slide deck, preferably the 10-slide structure from `TEMPLATE_GRADE.md`.
 3. Give each preset its own layout vocabulary, not just swapped colors and fonts.
 4. Create representative screenshot/thumbnail treatment for each template or gallery card.
-5. Run the template-grade audit before delivery: slide count, placeholder scan, desktop visual check, dense-slide check, and navigation check.
+5. Run the design-judgment and template-grade audits before delivery: intent, hierarchy, layout grammar, color strategy, slide count, placeholder scan, desktop visual check, dense-slide check, and navigation check.
 
 **Website-grade mode:** If the user asks to turn deck/template styles into websites, landing pages, product pages, documentation portals, event pages, editorial sites, or service/case-study pages, read [WEBSITE_GRADE.md](WEBSITE_GRADE.md) before generating. In that mode, build real website flows rather than slide decks pasted into a scrolling page.
 
@@ -195,6 +195,7 @@ If images were provided, the slide outline already incorporates them from Step 1
 - [html-template.md](html-template.md) — HTML architecture and JS features
 - [viewport-base.css](viewport-base.css) — Mandatory CSS (include in full)
 - [animation-patterns.md](animation-patterns.md) — Animation reference for the chosen feeling
+- [DESIGN_JUDGMENT.md](DESIGN_JUDGMENT.md) — Intent, hierarchy, layout grammar, typography, evidence, state, responsive, and library-distinctiveness audits
 - [COLOR_STRATEGY.md](COLOR_STRATEGY.md) — Palette logic, hue relationships, contrast, mood, and template-library color audits
 
 **Key requirements:**

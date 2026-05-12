@@ -6,6 +6,8 @@ Use this when turning deck or HTML-template visual systems into real websites.
 
 A website is not a slide deck pasted into a long page. Keep the template's typography, color, rhythm, and visual grammar, then redesign the structure for browsing, decision-making, and conversion.
 
+Read `DESIGN_JUDGMENT.md` before generating or auditing website samples. A website-grade sample must pass intent, information architecture, visual hierarchy, layout grammar, typography, color, evidence, state, responsive, and library-distinctiveness checks.
+
 Read `COLOR_STRATEGY.md` when translating a deck/template palette into a website. The website version must extend the palette into navigation, forms, cards, tables, CTAs, thumbnails, status states, and dense mobile sections.
 
 ## First Batch Archetypes
@@ -43,6 +45,21 @@ Regulated categories such as banking account opening, KYC, securities trading, i
 ## Archetype Structure Requirements
 
 Do not reuse one generic landing-page skeleton across all archetypes. The style can come from a deck template, but the information architecture must come from the website type.
+
+## Design Judgment Requirements
+
+For every website sample, answer these internally before writing code:
+
+- Who is the audience and what decision should they make?
+- What trust level does the category require?
+- Which category-specific structure is required, beyond a hero and cards?
+- What is the first, second, and third thing the eye should notice?
+- What layout family does this sample add to the library?
+- Which concrete evidence makes the page inspectable?
+- Which interaction states are required for this category?
+- What should remain visible or recoverable on mobile?
+
+Failure pattern: a page that is visually attractive but cannot explain what the visitor should evaluate, trust, or do next.
 
 ## Color Translation Requirements
 
@@ -432,13 +449,16 @@ Before writing code:
 1. Choose the website archetype.
 2. Choose the source template/style family.
 3. Define the conversion goal: demo, purchase, search, register, read, subscribe, or consult.
-4. Decide which slide vocabulary survives: typography, marks, tabs, rules, grids, dark canvas, editorial margins, terminal frame, etc.
-5. Replace slide-only structures with website structures: sticky nav, hero, proof band, feature grid, timeline, article body, FAQ, form, footer.
+4. Run the `DESIGN_JUDGMENT.md` intent and information-architecture checks.
+5. Decide which slide vocabulary survives: typography, marks, tabs, rules, grids, dark canvas, editorial margins, terminal frame, etc.
+6. Replace slide-only structures with website structures: sticky nav, hero, proof band, feature grid, timeline, article body, FAQ, form, footer.
+7. Define palette roles with `COLOR_STRATEGY.md`: canvas, ink, muted ink, surface, line, primary accent, secondary accent, and state colors where relevant.
 
 ## Audit
 
 Before delivery:
 
+- Run the `DESIGN_JUDGMENT.md` audit and improve the weakest risk before publishing.
 - Check the page is not just a PPT cover plus cards.
 - Check the first viewport communicates the offer in about five seconds.
 - Check CTA appears in the hero and near the end.
