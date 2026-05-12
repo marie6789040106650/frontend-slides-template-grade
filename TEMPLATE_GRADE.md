@@ -20,7 +20,7 @@ Every template-grade deck needs:
 
 Use high-completion HTML template libraries as the bar: the sample should look like an authored deck someone intentionally published, not a preset demonstration with filler text.
 
-Before judging visual polish, read `DESIGN_JUDGMENT.md`. A template-grade deck must pass intent, hierarchy, layout grammar, typography, color, evidence, viewport, and library-distinctiveness checks. Then score with `DESIGN_SCORECARD.md` and verify the rendered deck with `DESIGN_VERIFICATION.md`.
+Before judging visual polish, read `DESIGN_JUDGMENT.md`. A template-grade deck must pass intent, hierarchy, layout grammar, typography, color, evidence, viewport, and library-distinctiveness checks. Then score with `DESIGN_SCORECARD.md` and verify the rendered deck with `DESIGN_VERIFICATION.md`. Use `DESIGN_REFERENCE_CASES.md` when the deck is derived from a recognizable website/product/content archetype.
 
 ## Production Modes
 
@@ -33,6 +33,8 @@ Use this standard for:
 - Any public sample where first impression and screenshot quality matter.
 
 For gallery work, every item needs either an actual screenshot or a purpose-built thumbnail that shows its visual grammar. A plain gradient title card is not enough.
+
+For sustained gallery refinement, use `FEEDBACK_LOOP.md`: score the weakest item, improve one focused layer, verify, then update the skill if the lesson generalizes.
 
 ## Required Layout Set
 

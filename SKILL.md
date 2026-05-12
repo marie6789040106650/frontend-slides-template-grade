@@ -198,6 +198,8 @@ If images were provided, the slide outline already incorporates them from Step 1
 - [DESIGN_JUDGMENT.md](DESIGN_JUDGMENT.md) — Intent, hierarchy, layout grammar, typography, evidence, state, responsive, and library-distinctiveness audits
 - [DESIGN_SCORECARD.md](DESIGN_SCORECARD.md) — 100-point design scoring, hard caps, and feedback-loop iteration target
 - [DESIGN_VERIFICATION.md](DESIGN_VERIFICATION.md) — Rendered screenshot, navigation, mobile, placeholder, contrast, and deployment checks
+- [DESIGN_REFERENCE_CASES.md](DESIGN_REFERENCE_CASES.md) — Archetype-specific mature patterns, common failures, and upgrade moves
+- [FEEDBACK_LOOP.md](FEEDBACK_LOOP.md) — Skill-first generate/score/improve/verify/update iteration protocol
 - [COLOR_STRATEGY.md](COLOR_STRATEGY.md) — Palette logic, hue relationships, contrast, mood, and template-library color audits
 
 **Key requirements:**

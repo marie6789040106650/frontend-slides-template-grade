@@ -8,6 +8,8 @@ A website is not a slide deck pasted into a long page. Keep the template's typog
 
 Read `DESIGN_JUDGMENT.md` before generating or auditing website samples. A website-grade sample must pass intent, information architecture, visual hierarchy, layout grammar, typography, color, evidence, state, responsive, and library-distinctiveness checks. Then score with `DESIGN_SCORECARD.md` and verify rendered behavior with `DESIGN_VERIFICATION.md`.
 
+Use `DESIGN_REFERENCE_CASES.md` to compare against mature archetype patterns without copying competitor brand dress or proprietary layouts.
+
 Read `COLOR_STRATEGY.md` when translating a deck/template palette into a website. The website version must extend the palette into navigation, forms, cards, tables, CTAs, thumbnails, status states, and dense mobile sections.
 
 ## First Batch Archetypes
@@ -450,10 +452,11 @@ Before writing code:
 2. Choose the source template/style family.
 3. Define the conversion goal: demo, purchase, search, register, read, subscribe, or consult.
 4. Run the `DESIGN_JUDGMENT.md` intent and information-architecture checks.
-5. Decide which slide vocabulary survives: typography, marks, tabs, rules, grids, dark canvas, editorial margins, terminal frame, etc.
-6. Replace slide-only structures with website structures: sticky nav, hero, proof band, feature grid, timeline, article body, FAQ, form, footer.
-7. Define palette roles with `COLOR_STRATEGY.md`: canvas, ink, muted ink, surface, line, primary accent, secondary accent, and state colors where relevant.
-8. Set a target score with `DESIGN_SCORECARD.md`: 88+ for publishable samples, 95+ for flagship gallery items.
+5. Compare the archetype with `DESIGN_REFERENCE_CASES.md`.
+6. Decide which slide vocabulary survives: typography, marks, tabs, rules, grids, dark canvas, editorial margins, terminal frame, etc.
+7. Replace slide-only structures with website structures: sticky nav, hero, proof band, feature grid, timeline, article body, FAQ, form, footer.
+8. Define palette roles with `COLOR_STRATEGY.md`: canvas, ink, muted ink, surface, line, primary accent, secondary accent, and state colors where relevant.
+9. Set a target score with `DESIGN_SCORECARD.md`: 88+ for publishable samples, 95+ for flagship gallery items.
 
 ## Audit
 
@@ -490,7 +493,8 @@ For a new style-to-website system:
 7. Verify the change with `DESIGN_VERIFICATION.md`.
 8. Note which template vocabularies transfer well and which feel too slide-like.
 9. Update this skill with the learned mappings, structure requirements, failure patterns, score caps, and verification checks.
-10. Generate the next batch with the revised rules.
+10. Use `FEEDBACK_LOOP.md` when the user asks for sustained or skill-first iteration.
+11. Generate the next batch with the revised rules.
 
 ## Iteration Order
 

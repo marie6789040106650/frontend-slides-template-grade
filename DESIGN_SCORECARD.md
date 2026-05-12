@@ -1,6 +1,6 @@
 # Design Scorecard
 
-Use this after `DESIGN_JUDGMENT.md` to turn qualitative design judgment into a repeatable score and iteration target.
+Use this after `DESIGN_JUDGMENT.md` to turn qualitative design judgment into a repeatable score and iteration target. Use `DESIGN_REFERENCE_CASES.md` when deciding whether the score matches mature archetype practice.
 
 ## Core Rule
 
@@ -78,7 +78,8 @@ If a website has only a homepage when the archetype requires detail pages, cap a
 4. Make one focused improvement round.
 5. Verify with `DESIGN_VERIFICATION.md`.
 6. Rescore only the affected categories plus any hard cap.
-7. Stop when the score reaches publishable range or the remaining issues require new real content/assets from the user.
+7. If the lesson generalizes, update the skill using `FEEDBACK_LOOP.md`.
+8. Stop when the score reaches publishable range or the remaining issues require new real content/assets from the user.
 
 ## Output Format
 
