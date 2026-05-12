@@ -126,6 +126,24 @@ Do not copy:
 
 - Shopify's green brand system, merchant stories, store imagery, or platform claims.
 
+### Apple Pattern: Product Theater Plus Commerce System
+
+Reusable lessons:
+
+- A product-led brand site can use a cinematic first viewport when the product itself is the evidence.
+- Product theater is not enough by itself. It must connect to an evaluation system: lineup, compare, buy/configure, trade-in, financing, delivery/pickup, support, returns, privacy, and account/order status.
+- Keep the first action simple, but give deeper buyers immediate routes to comparison, configuration, specialist help, and support.
+- Separate emotional product storytelling from legal, financing, eligibility, subscription, privacy, and service boundaries, but keep those boundaries findable before purchase.
+- For global product ecosystems, navigation should support both product families and user tasks: shop, learn, compare, buy, repair, manage account, and get help.
+
+Use when:
+
+- Building consumer product, hardware, app, digital product, template store, ecommerce, subscription media, accessory, or product-ecosystem samples.
+
+Do not copy:
+
+- Apple's exact minimalist art direction, product imagery, typography, device renders, naming, page rhythm, or generic `Learn more` / `Buy` CTA pair.
+
 ### Duolingo Pattern: Path Certainty and Motivation Loops
 
 Reusable lessons:
@@ -187,6 +205,7 @@ When a sample looks good but still feels thin, choose one move:
 - Add state coverage: empty, selected, hover/focus, loading, error, disabled, success, permission, no-results, confirmation.
 - Add trust boundary: pricing, privacy, refunds, cancellation, support, security, license, eligibility, jurisdiction, disclosure, or accessibility.
 - Add a lifecycle page: changelog, status, docs, template gallery, customer story, case study, help center, account, or settings.
+- For product-led consumer sites, add the commerce/support loop: compare, configure, buy, financing or plan, delivery/pickup, returns, support, warranty, privacy, and account/order status.
 
 ## Quick Internal Audit
 
@@ -197,4 +216,5 @@ Before calling a website sample mature, answer:
 - What evidence reduces belief-work?
 - What state proves the site is usable beyond the first screen?
 - What trust or policy boundary prevents hidden risk?
+- If the page uses a beautiful product hero, where are compare, buy/configure, support, returns, and privacy paths?
 - What pattern from a mature reference did we extract, and what brand-specific detail did we avoid copying?

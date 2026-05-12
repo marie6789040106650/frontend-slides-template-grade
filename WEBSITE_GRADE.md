@@ -77,6 +77,20 @@ Mature websites usually win through three practical qualities:
 
 Score down pages that use abstract shapes, generic benefits, or vague "Learn more" links when a concrete product surface or action path should exist.
 
+## Product Theater and Commerce System
+
+For consumer products, hardware, apps, digital products, templates, accessories, and subscription media, a beautiful product hero is only the opening move. Treat it as **product theater**, not completion.
+
+Product-theater samples need a connected decision system:
+
+- Product surface: real product image, UI, demo, preview, artifact, or media object.
+- Evaluation: lineup, comparison, specs, features, examples, reviews, or use cases.
+- Commerce: price, plan, buy/configure path, checkout expectation, discount, financing, or trial terms.
+- Service: delivery/pickup, returns/refunds, warranty, support, order/account status, or repair path.
+- Trust: privacy, license, subscription renewal/cancel terms, eligibility, region availability, accessibility, or safety boundary.
+
+Failure pattern: copying the Apple-like "large product image + Learn more / Buy" rhythm for an unknown brand. Apple can rely on massive brand trust; small companies and template samples must make the decision system more explicit.
+
 ## Website Maturity Ladder
 
 When translating a template style into a website, decide the intended maturity level before coding:
@@ -185,6 +199,18 @@ Required sections:
 - SEO/structured layer: product URL, Product/Offer/Review/Breadcrumb/FAQ structured-data plan, meta description, image alt, and shipping/return information that search engines and buyers can parse.
 
 Failure pattern: a product page that looks like a beautiful brand poster but lacks price, variants, stock, shipping, returns, reviews, specs, or a clear add-to-cart path is not a complete PDP.
+
+### Consumer Product / Hardware / App Product Site
+
+Required sections:
+
+- First viewport: product family, product name, concrete product image/UI, primary buy/download/start CTA, and a specific learn/compare secondary path.
+- Product lineup: model or plan comparison, price range, best-for labels, major differences, compatibility, and upgrade path.
+- Configuration or decision path: choose model, size, color, storage, license, plan, bundle, template pack, platform, or region where relevant.
+- Buying/support loop: trade-in or discount if relevant, financing or subscription terms, delivery/pickup/download expectations, returns/refunds, warranty/support, and order/account status.
+- Trust and values: privacy, data use, accessibility, sustainability, repair/service, license, safety, or region availability depending on category.
+
+Failure pattern: a cinematic product page with no compare, price, configuration, delivery/download, return/refund, support, privacy, or account path. That is product theater without a commerce system.
 
 ### Cohort Course / Education Site
 
