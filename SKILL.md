@@ -195,6 +195,7 @@ If images were provided, the slide outline already incorporates them from Step 1
 - [html-template.md](html-template.md) — HTML architecture and JS features
 - [viewport-base.css](viewport-base.css) — Mandatory CSS (include in full)
 - [animation-patterns.md](animation-patterns.md) — Animation reference for the chosen feeling
+- [COLOR_STRATEGY.md](COLOR_STRATEGY.md) — Palette logic, hue relationships, contrast, mood, and template-library color audits
 
 **Key requirements:**
 

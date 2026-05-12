@@ -6,6 +6,8 @@ Use this when turning deck or HTML-template visual systems into real websites.
 
 A website is not a slide deck pasted into a long page. Keep the template's typography, color, rhythm, and visual grammar, then redesign the structure for browsing, decision-making, and conversion.
 
+Read `COLOR_STRATEGY.md` when translating a deck/template palette into a website. The website version must extend the palette into navigation, forms, cards, tables, CTAs, thumbnails, status states, and dense mobile sections.
+
 ## First Batch Archetypes
 
 Use these as calibration samples before broad generation. Default to website types that a personal developer, independent creator, small team, studio, or small company can realistically publish and operate without a special license.
@@ -41,6 +43,19 @@ Regulated categories such as banking account opening, KYC, securities trading, i
 ## Archetype Structure Requirements
 
 Do not reuse one generic landing-page skeleton across all archetypes. The style can come from a deck template, but the information architecture must come from the website type.
+
+## Color Translation Requirements
+
+For every website sample, define color roles before styling sections:
+
+- Canvas, ink, muted ink, surface, line, primary accent, secondary accent.
+- CTA color and hover/focus state.
+- Form or state colors if the site has checkout, booking, application, dashboard, support, or account flows.
+- Thumbnail expression that still reads at gallery-card size.
+
+Use hue-wheel relationships as a design check, not as a formula. Split-complementary and analogous palettes usually translate well to websites because they provide both cohesion and action contrast. Full complementary or triadic palettes need stricter area control.
+
+Failure pattern: a palette that looked good on a deck cover but cannot support links, tables, forms, errors, disabled states, body text, and mobile navigation is not website-grade.
 
 ### B2B SaaS Product Site
 

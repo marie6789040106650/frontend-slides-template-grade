@@ -16,6 +16,7 @@ Every template-grade deck needs:
 - Consistent chrome: page numbers, section labels, navigation, borders, marks, or recurring decorative vocabulary.
 - A clear typography system: display, body, labels, numbers, captions.
 - A reusable palette and component grammar that holds across title, content, metric, quote, comparison, process, and closing slides.
+- A color strategy that explains canvas, ink, accent, hierarchy, and hue relationship rather than only listing attractive swatches.
 
 Use high-completion HTML template libraries as the bar: the sample should look like an authored deck someone intentionally published, not a preset demonstration with filler text.
 
@@ -65,6 +66,18 @@ When producing multiple presets, each preset must differ in more than color and 
 - Keep first-slide screenshots visually representative; the gallery thumbnail should show the actual design vocabulary, not a plain gradient.
 - If images are needed but unavailable, use designed abstract frames or CSS-native placeholders that are part of the visual language, not generic "image placeholder" boxes.
 - Do not label generated samples as "not original" or apologize for adaptation. Make the work good enough that the distinction is unnecessary.
+- Read `COLOR_STRATEGY.md` when creating or auditing reusable palettes. A strong template needs roles for canvas, ink, muted ink, surface, line, primary accent, secondary accent, and state colors where relevant.
+
+## Color Audit
+
+Before calling a deck template polished, check:
+
+- The palette relationship is intentional: monochromatic, analogous, complementary, split-complementary, triadic, or tetradic.
+- The 60/30/10 balance or another clear hierarchy prevents every color from shouting.
+- Accent colors map to specific jobs: CTA, current state, key number, section marker, or data series.
+- Body text and captions remain readable on every surface.
+- The palette still works in the gallery thumbnail and in the densest slide.
+- The template does not collapse into the same one-hue family used by adjacent presets.
 
 ## Placeholder Audit
 
