@@ -78,6 +78,8 @@ Search for unfinished residue:
 - bracket fields like `[Topic]`, `[Year]`, `[Author Name]`, `[Client Name]`
 - empty `href="#"` for meaningful navigation
 - missing `alt` where an image conveys content
+- missing `data-layout` on template-grade deck slides
+- missing `data-image-slot` on meaningful local deck images
 
 Intentional bracket labels are allowed only when they read as designed labels, such as `[Method]` or `[Pattern]`.
 
@@ -97,10 +99,13 @@ For websites:
 For deck templates:
 
 - Slide count matches the expected range.
+- Template-grade decks pass `node scripts/validate-deck.mjs path/to/index.html --template-grade` when the script is available.
 - Every slide fits exactly in the viewport with no internal scrolling.
 - Forward and backward navigation work.
 - Dense slides remain readable at desktop presentation size.
 - Theme chrome is consistent: page numbers, marks, section labels, rules, or tabs.
+- Slide layout ids show a real layout system rather than one repeated body pattern.
+- Images have slot names, safe crops, captions when useful, and meaningful alt text.
 - Thumbnail or screenshot represents the actual deck, not a placeholder.
 
 ## Feedback Loop Evidence

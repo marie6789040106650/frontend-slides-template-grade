@@ -11,16 +11,18 @@ Every template-grade deck needs:
 - 8-12 slides minimum unless the user requests fewer.
 - A specific demo topic that matches the style's mood.
 - Distinct slide layouts, not one repeated card pattern.
+- Stable `data-layout` ids for every slide so the deck's layout system can be audited.
 - Realistic authored sample copy, numbers, labels, and section names.
 - No unresolved placeholders such as `TODO`, `Lorem`, `[Topic]`, `[Year]`, or `Image Placeholder`.
 - Consistent chrome: page numbers, section labels, navigation, borders, marks, or recurring decorative vocabulary.
 - A clear typography system: display, body, labels, numbers, captions.
 - A reusable palette and component grammar that holds across title, content, metric, quote, comparison, process, and closing slides.
 - A color strategy that explains canvas, ink, accent, hierarchy, and hue relationship rather than only listing attractive swatches.
+- Image slots for meaningful local images, screenshots, generated media, and gallery thumbnails.
 
 Use high-completion HTML template libraries as the bar: the sample should look like an authored deck someone intentionally published, not a preset demonstration with filler text.
 
-Before judging visual polish, read `DESIGN_JUDGMENT.md`. A template-grade deck must pass intent, hierarchy, layout grammar, typography, color, evidence, viewport, and library-distinctiveness checks. Then score with `DESIGN_SCORECARD.md` and verify the rendered deck with `DESIGN_VERIFICATION.md`. Use `DESIGN_REFERENCE_CASES.md` when the deck is derived from a recognizable website/product/content archetype.
+Before judging visual polish, read `PPT_PRODUCTION_GUARDRAILS.md`, `IMAGE_SLOT_GUIDE.md`, and `DESIGN_JUDGMENT.md`. A template-grade deck must pass intent, hierarchy, layout grammar, typography, color, evidence, viewport, and library-distinctiveness checks. Then score with `DESIGN_SCORECARD.md` and verify the rendered deck with `DESIGN_VERIFICATION.md`. Use `DESIGN_REFERENCE_CASES.md` when the deck is derived from a recognizable website/product/content archetype.
 
 ## Production Modes
 
@@ -53,6 +55,17 @@ Prefer this 10-slide structure for new template-grade demos:
 
 Adapt names and content to the deck's demo topic. For example, a terminal-themed preset should feel like release notes; an editorial preset can feel like a strategy memo; a playful preset can feel like a community launch.
 
+## Layout Registry Requirement
+
+Before generating the slides, define the deck's layout registry:
+
+- Allowed layout ids.
+- Which ids are cover, closing, body, image, comparison, and process layouts.
+- Which chrome is required.
+- Which structures are forbidden for this style.
+
+Every slide should declare a `data-layout` id. For public gallery decks, missing layout ids are a production defect, not a harmless implementation detail.
+
 ## Layout Independence
 
 When producing multiple presets, each preset must differ in more than color and font:
@@ -84,6 +97,8 @@ After the audit, apply `DESIGN_SCORECARD.md`. If the score is below 88, run one 
 - Use a fixed slide stage or grid so primary content cannot drift outside the visible viewport.
 - Keep all text and decorative elements inside the slide's visual system.
 - Use `clamp()` for type and spacing.
+- Use template-owned classes. Do not invent classes unless they are added to the shared CSS for that deck.
+- Bind meaningful images to slots from `IMAGE_SLOT_GUIDE.md`.
 - Keep first-slide screenshots visually representative; the gallery thumbnail should show the actual design vocabulary, not a plain gradient.
 - If images are needed but unavailable, use designed abstract frames or CSS-native placeholders that are part of the visual language, not generic "image placeholder" boxes.
 - Do not label generated samples as "not original" or apologize for adaptation. Make the work good enough that the distinction is unnecessary.
@@ -129,9 +144,12 @@ For a public gallery:
 
 Before delivery:
 
+- Run `node scripts/validate-deck.mjs path/to/index.html --template-grade` for generated template decks when the script is available.
 - Score with `DESIGN_SCORECARD.md`; publishable template-grade work should usually be 88+ after hard caps.
 - Verify with `DESIGN_VERIFICATION.md`; rendered screenshots matter more than source-code confidence.
 - Count slides and confirm the expected number.
+- Confirm every slide has a meaningful `data-layout` id.
+- Confirm meaningful local images include `data-image-slot`, useful `alt`, and safe crop.
 - Search generated HTML for unresolved placeholder terms.
 - Check at least one title slide and one dense content slide in a browser.
 - Verify no text overlaps, clips, or escapes its stage at desktop size.
