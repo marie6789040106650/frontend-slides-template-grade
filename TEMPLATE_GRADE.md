@@ -20,7 +20,7 @@ Every template-grade deck needs:
 
 Use high-completion HTML template libraries as the bar: the sample should look like an authored deck someone intentionally published, not a preset demonstration with filler text.
 
-Before judging visual polish, read `DESIGN_JUDGMENT.md`. A template-grade deck must pass intent, hierarchy, layout grammar, typography, color, evidence, viewport, and library-distinctiveness checks.
+Before judging visual polish, read `DESIGN_JUDGMENT.md`. A template-grade deck must pass intent, hierarchy, layout grammar, typography, color, evidence, viewport, and library-distinctiveness checks. Then score with `DESIGN_SCORECARD.md` and verify the rendered deck with `DESIGN_VERIFICATION.md`.
 
 ## Production Modes
 
@@ -75,6 +75,8 @@ Before delivery, run the short audit from `DESIGN_JUDGMENT.md`:
 
 Use this audit to improve the file before presenting it. Only surface the audit to the user when it helps the conversation.
 
+After the audit, apply `DESIGN_SCORECARD.md`. If the score is below 88, run one focused improvement round unless the user explicitly asked for a rough draft. Use `DESIGN_VERIFICATION.md` for screenshot, viewport, navigation, and placeholder checks.
+
 ## Visual Requirements
 
 - Use a fixed slide stage or grid so primary content cannot drift outside the visible viewport.
@@ -125,6 +127,8 @@ For a public gallery:
 
 Before delivery:
 
+- Score with `DESIGN_SCORECARD.md`; publishable template-grade work should usually be 88+ after hard caps.
+- Verify with `DESIGN_VERIFICATION.md`; rendered screenshots matter more than source-code confidence.
 - Count slides and confirm the expected number.
 - Search generated HTML for unresolved placeholder terms.
 - Check at least one title slide and one dense content slide in a browser.

@@ -6,7 +6,7 @@ Use this when creating, auditing, or iterating deck templates, website samples, 
 
 Good design is not only visual polish. It is a set of decisions that make a specific audience understand, trust, compare, act, or remember.
 
-Use this file before calling a template or website "finished." `COLOR_STRATEGY.md` covers palette logic; this file covers the full design judgment loop.
+Use this file before calling a template or website "finished." `COLOR_STRATEGY.md` covers palette logic, `DESIGN_SCORECARD.md` turns judgment into an iteration target, and `DESIGN_VERIFICATION.md` proves the rendered artifact works.
 
 ## Judgment Stack
 
@@ -159,3 +159,5 @@ After generating or improving a sample, produce a short internal audit:
 - **Do not change**: one successful visual rule worth preserving.
 
 Do not over-explain this in the user-facing final answer unless the user asks. Use it to guide iteration.
+
+Then score with `DESIGN_SCORECARD.md` and verify with `DESIGN_VERIFICATION.md`. If the weakest risk and the lowest score category disagree, inspect both before choosing the next change.

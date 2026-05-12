@@ -6,7 +6,7 @@ Use this when turning deck or HTML-template visual systems into real websites.
 
 A website is not a slide deck pasted into a long page. Keep the template's typography, color, rhythm, and visual grammar, then redesign the structure for browsing, decision-making, and conversion.
 
-Read `DESIGN_JUDGMENT.md` before generating or auditing website samples. A website-grade sample must pass intent, information architecture, visual hierarchy, layout grammar, typography, color, evidence, state, responsive, and library-distinctiveness checks.
+Read `DESIGN_JUDGMENT.md` before generating or auditing website samples. A website-grade sample must pass intent, information architecture, visual hierarchy, layout grammar, typography, color, evidence, state, responsive, and library-distinctiveness checks. Then score with `DESIGN_SCORECARD.md` and verify rendered behavior with `DESIGN_VERIFICATION.md`.
 
 Read `COLOR_STRATEGY.md` when translating a deck/template palette into a website. The website version must extend the palette into navigation, forms, cards, tables, CTAs, thumbnails, status states, and dense mobile sections.
 
@@ -453,12 +453,15 @@ Before writing code:
 5. Decide which slide vocabulary survives: typography, marks, tabs, rules, grids, dark canvas, editorial margins, terminal frame, etc.
 6. Replace slide-only structures with website structures: sticky nav, hero, proof band, feature grid, timeline, article body, FAQ, form, footer.
 7. Define palette roles with `COLOR_STRATEGY.md`: canvas, ink, muted ink, surface, line, primary accent, secondary accent, and state colors where relevant.
+8. Set a target score with `DESIGN_SCORECARD.md`: 88+ for publishable samples, 95+ for flagship gallery items.
 
 ## Audit
 
 Before delivery:
 
 - Run the `DESIGN_JUDGMENT.md` audit and improve the weakest risk before publishing.
+- Score with `DESIGN_SCORECARD.md`; fix hard caps before polishing taste.
+- Verify with `DESIGN_VERIFICATION.md`; include desktop, mobile, dense section, navigation, and placeholder checks for new samples.
 - Check the page is not just a PPT cover plus cards.
 - Check the first viewport communicates the offer in about five seconds.
 - Check CTA appears in the hero and near the end.
@@ -482,9 +485,12 @@ For a new style-to-website system:
 2. Build 3-5 concrete website samples across different archetypes.
 3. Screenshot each first viewport and at least one body section.
 4. Compare each screenshot with strong industry examples in the same category, separating visual taste from task fitness.
-5. Note which template vocabularies transfer well and which feel too slide-like.
-6. Update this skill with the learned mappings, structure requirements, and failure patterns.
-7. Generate the next batch with the revised rules.
+5. Score each sample with `DESIGN_SCORECARD.md` and identify the lowest category.
+6. Run one focused improvement round on the lowest high-impact category.
+7. Verify the change with `DESIGN_VERIFICATION.md`.
+8. Note which template vocabularies transfer well and which feel too slide-like.
+9. Update this skill with the learned mappings, structure requirements, failure patterns, score caps, and verification checks.
+10. Generate the next batch with the revised rules.
 
 ## Iteration Order
 
