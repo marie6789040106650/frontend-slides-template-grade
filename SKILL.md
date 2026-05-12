@@ -15,6 +15,7 @@ Create zero-dependency, animation-rich HTML presentations that run entirely in t
 4. **Viewport Fitting (NON-NEGOTIABLE)** — Every slide MUST fit exactly within 100vh. No scrolling within slides, ever. Content overflows? Split into multiple slides.
 5. **Template-Library Completion** — Public template demos must feel finished enough to sell or publish: real sample copy, screenshots/thumbs, no unresolved placeholders, and a reusable layout system.
 6. **Deck Production Guardrails** — Template-grade PPT work needs registered layout ids, template-owned class vocabulary, image slots, rhythm planning, and validator checks.
+7. **Website Production Guardrails** — Website-grade work needs page/section registries, inspectable surface slots, honest navigation, state coverage, trust boundaries, mobile checks, and validator checks.
 
 ## Design Aesthetics
 
@@ -190,7 +191,7 @@ If images were provided, the slide outline already incorporates them from Step 1
 5. Create representative screenshot/thumbnail treatment for each template or gallery card.
 6. Run the design-judgment, scorecard, validator, verification, and template-grade audits before delivery: intent, hierarchy, layout grammar, color strategy, slide count, layout ids, image slots, placeholder scan, desktop/mobile visual check, dense-slide check, score, and navigation check.
 
-**Website-grade mode:** If the user asks to turn deck/template styles into websites, landing pages, product pages, documentation portals, event pages, editorial sites, or service/case-study pages, read [WEBSITE_GRADE.md](WEBSITE_GRADE.md) before generating. In that mode, build real website flows rather than slide decks pasted into a scrolling page.
+**Website-grade mode:** If the user asks to turn deck/template styles into websites, landing pages, product pages, documentation portals, event pages, editorial sites, or service/case-study pages, read [WEBSITE_GRADE.md](WEBSITE_GRADE.md), [WEB_PRODUCTION_GUARDRAILS.md](WEB_PRODUCTION_GUARDRAILS.md), and [SURFACE_SLOT_GUIDE.md](SURFACE_SLOT_GUIDE.md) before generating. In that mode, build real website flows rather than slide decks pasted into a scrolling page.
 
 **Before generating, read these supporting files:**
 
@@ -199,6 +200,8 @@ If images were provided, the slide outline already incorporates them from Step 1
 - [animation-patterns.md](animation-patterns.md) — Animation reference for the chosen feeling
 - [PPT_PRODUCTION_GUARDRAILS.md](PPT_PRODUCTION_GUARDRAILS.md) — Layout registry, class-source, image-slot, rhythm, P0 failure, and deck validator rules
 - [IMAGE_SLOT_GUIDE.md](IMAGE_SLOT_GUIDE.md) — Image slot names, ratios, crop rules, generated image rules, and gallery thumbnail checks
+- [WEB_PRODUCTION_GUARDRAILS.md](WEB_PRODUCTION_GUARDRAILS.md) — Page/section registry, navigation, state coverage, P0 failure, responsive, and website validator rules
+- [SURFACE_SLOT_GUIDE.md](SURFACE_SLOT_GUIDE.md) — Product/content/workflow surface slots for websites, including archetype defaults and failure patterns
 - [DESIGN_JUDGMENT.md](DESIGN_JUDGMENT.md) — Intent, hierarchy, layout grammar, typography, evidence, state, responsive, and library-distinctiveness audits
 - [DESIGN_SCORECARD.md](DESIGN_SCORECARD.md) — 100-point design scoring, hard caps, and feedback-loop iteration target
 - [DESIGN_VERIFICATION.md](DESIGN_VERIFICATION.md) — Rendered screenshot, navigation, mobile, placeholder, contrast, and deployment checks

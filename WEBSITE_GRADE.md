@@ -14,6 +14,8 @@ Use `MATURE_WEBSITE_PATTERNS.md` when analyzing known mature websites such as pa
 
 Read `COLOR_STRATEGY.md` when translating a deck/template palette into a website. The website version must extend the palette into navigation, forms, cards, tables, CTAs, thumbnails, status states, and dense mobile sections.
 
+Read `WEB_PRODUCTION_GUARDRAILS.md` and `SURFACE_SLOT_GUIDE.md` before generating public or reusable website samples. Website-grade work should define a page/section registry, at least one inspectable `data-surface`, honest navigation, state coverage where relevant, and a trust boundary for risky decisions.
+
 ## First Batch Archetypes
 
 Use these as calibration samples before broad generation. Default to website types that a personal developer, independent creator, small team, studio, or small company can realistically publish and operate without a special license.
@@ -50,6 +52,20 @@ Regulated categories such as banking account opening, KYC, securities trading, i
 
 Do not reuse one generic landing-page skeleton across all archetypes. The style can come from a deck template, but the information architecture must come from the website type.
 
+## Page, Section, And Surface Registry
+
+Before generating, define:
+
+- Target maturity level: visual mockup, landing page, product surface, evaluation system, or operating system.
+- Pages and routes if the sample has child pages.
+- Global navigation and CTA paths.
+- Required `data-section` jobs.
+- Required `data-surface` objects from `SURFACE_SLOT_GUIDE.md`.
+- Required states such as empty, loading, selected, error, success, unavailable, or no-results.
+- Trust boundaries: pricing, privacy, refunds, support, license, safety, eligibility, accessibility, or jurisdiction.
+
+For public gallery website samples, missing inspectable surfaces or fake navigation are production defects, not only scorecard issues.
+
 ## Design Judgment Requirements
 
 For every website sample, answer these internally before writing code:
@@ -64,6 +80,7 @@ For every website sample, answer these internally before writing code:
 - Which next action is closest to the user's decision: pricing, docs, install, checkout, booking, apply, compare, donate, or contact?
 - Which interaction states are required for this category?
 - What should remain visible or recoverable on mobile?
+- Which `data-section` and `data-surface` names prove the page is a real task system?
 
 Failure pattern: a page that is visually attractive but cannot explain what the visitor should evaluate, trust, or do next.
 

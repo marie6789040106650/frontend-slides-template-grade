@@ -87,8 +87,10 @@ Intentional bracket labels are allowed only when they read as designed labels, s
 
 For websites:
 
+- Website-grade samples pass `node scripts/validate-website.mjs path/to/site-or-page --website-grade` when the script is available.
 - Every main navigation item leads to a real section or child page.
 - Primary and secondary CTAs lead somewhere credible.
+- Public samples include `data-section` jobs and at least one inspectable `data-surface`.
 - Category-specific blockers from `WEBSITE_GRADE.md` are present.
 - Forms, checkout, booking, dashboard, support, and account surfaces include relevant states.
 - Mobile has no horizontal scroll and does not hide the primary action.
