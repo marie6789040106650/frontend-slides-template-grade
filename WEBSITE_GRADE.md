@@ -10,6 +10,8 @@ Read `DESIGN_JUDGMENT.md` before generating or auditing website samples. A websi
 
 Use `DESIGN_REFERENCE_CASES.md` to compare against mature archetype patterns without copying competitor brand dress or proprietary layouts.
 
+Use `MATURE_WEBSITE_PATTERNS.md` when analyzing known mature websites such as payment infrastructure, productivity SaaS, developer platforms, docs portals, ecommerce platforms, learning products, or workspace tools. Extract the decision structure: evidence density, task proximity, product surface, trust boundary, and state coverage.
+
 Read `COLOR_STRATEGY.md` when translating a deck/template palette into a website. The website version must extend the palette into navigation, forms, cards, tables, CTAs, thumbnails, status states, and dense mobile sections.
 
 ## First Batch Archetypes
@@ -74,6 +76,18 @@ Mature websites usually win through three practical qualities:
 - **Product surface**: the page shows the thing being evaluated: product UI, docs shell, checkout, course path, dashboard table, menu, itinerary, catalog, case file, issue archive, or booking flow.
 
 Score down pages that use abstract shapes, generic benefits, or vague "Learn more" links when a concrete product surface or action path should exist.
+
+## Website Maturity Ladder
+
+When translating a template style into a website, decide the intended maturity level before coding:
+
+- **Poster**: acceptable only for a one-off announcement or art direction preview.
+- **Landing page**: acceptable for early style exploration, but not for a flagship template sample.
+- **Product surface**: minimum bar for publishable website samples.
+- **Evaluation system**: target bar for strong public gallery samples.
+- **Operating system**: required for docs, dashboards, ecommerce, marketplaces, communities, booking, and app-like products.
+
+If the sample is only a visually polished poster or generic landing page, do not call it complete. Add product/content surface, decision evidence, specific task paths, and at least one meaningful state.
 
 ## Color Translation Requirements
 

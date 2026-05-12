@@ -44,6 +44,7 @@ Apply caps after the numeric score. A capped sample cannot exceed the listed sco
 - Vague next action labels only, with no concrete task path such as pricing, docs, checkout, booking, apply, install, or compare: max 68.
 - Page/deck is only a cover plus generic cards: max 65.
 - Abstract hero art replaces the product/content surface entirely: max 72.
+- Website stays at poster/landing-page level when the archetype needs a product surface or evaluation system: max 76.
 - Category-specific blocker is missing, such as product price, docs search, event date, course curriculum, service case proof, or dashboard table: max 70.
 - Color contrast fails for body text or critical UI controls: max 70.
 - Navigation points to empty anchors or fake pages in a multi-page sample: max 72.
@@ -71,6 +72,7 @@ For website samples, weight these checks heavily:
 - Page system: important nav labels lead to working sections or pages.
 - Conversion loop: hero CTA, body CTA, final CTA, and recovery path are coherent.
 - SEO/crawlability: key content is text, not only decorative screenshots.
+- Maturity level: publishable samples reach at least product-surface level; flagship samples reach evaluation-system level.
 
 If a website has only a homepage when the archetype requires detail pages, cap at 82 unless the user explicitly requested a single page.
 

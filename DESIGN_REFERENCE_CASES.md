@@ -2,6 +2,8 @@
 
 Use this with `DESIGN_JUDGMENT.md`, `DESIGN_SCORECARD.md`, and `DESIGN_VERIFICATION.md` when comparing generated templates or websites against mature practice.
 
+For named mature website analysis, also read `MATURE_WEBSITE_PATTERNS.md`. That file captures reusable patterns from well-known mature sites without treating those sites as visual templates to copy.
+
 ## Core Rule
 
 Reference cases are calibration, not copying. Extract the decision structure, evidence pattern, interaction model, and visual discipline. Do not imitate brand dress, proprietary layouts, or copyrighted assets.
@@ -55,6 +57,7 @@ Strong references to study by pattern:
 - Small developer tools with quickstart and changelog discipline.
 - Self-serve AI products that show one concrete task before sign-up.
 - Template tools that provide previews, license rules, and export examples.
+- Mature developer-platform sites that keep templates, docs, pricing, status, and deploy/install actions close to the first decision.
 
 Common failure:
 
@@ -70,6 +73,7 @@ Mature patterns:
 
 - ICP and job-to-be-done in the first viewport.
 - Product UI or workflow, not only abstract shapes.
+- Product-surface hero or near-hero that shows navigation, workflow objects, statuses, tables, assignments, admin controls, or another operable object.
 - Role-specific proof for buyer, operator, admin, and security/procurement.
 - Integrations, permissions, security, implementation, and pricing paths.
 - Case evidence with numbers and operational context.
@@ -89,6 +93,7 @@ Mature patterns:
 - Search, quickstart, copyable code, version context, changelog.
 - Clear install/auth/config/troubleshooting paths.
 - API reference with parameters, errors, examples, and limits.
+- Search results, no-match recovery, and troubleshooting by symptom when the sample includes multi-page docs.
 - LLM-readable docs path when relevant.
 - Status, migration, deprecation, and support visibility.
 

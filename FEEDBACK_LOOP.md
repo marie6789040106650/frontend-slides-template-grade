@@ -10,6 +10,7 @@ The loop is not "make it prettier." The loop is: generate or inspect, score, ide
 
 1. **Choose target**: skill rule, template deck, website sample, gallery page, or public deployment.
 2. **Gather references**: use `DESIGN_REFERENCE_CASES.md` and current industry examples when the topic is likely to have evolved.
+   - For known mature websites, use `MATURE_WEBSITE_PATTERNS.md` to extract decision structure, not brand dress.
 3. **Audit**: use `DESIGN_JUDGMENT.md`.
 4. **Score**: use `DESIGN_SCORECARD.md`, including hard caps.
 5. **Prioritize**: choose the lowest high-impact category, not the easiest cosmetic change.
@@ -27,6 +28,7 @@ When the user says the focus is upgrading the skill:
 - Use a sample only to pressure-test the rule.
 - Avoid adding rules that are just one-off preferences.
 - Promote repeated findings into `WEBSITE_GRADE.md`, `TEMPLATE_GRADE.md`, `COLOR_STRATEGY.md`, `DESIGN_JUDGMENT.md`, `DESIGN_SCORECARD.md`, `DESIGN_VERIFICATION.md`, or `DESIGN_REFERENCE_CASES.md`.
+- When the repeated finding comes from mature website analysis, first capture it in `MATURE_WEBSITE_PATTERNS.md`, then promote only generalized rules into the stricter grading files.
 - Keep rules actionable: a future agent should know what to inspect and what to change.
 
 ## Iteration Log
