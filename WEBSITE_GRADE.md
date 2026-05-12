@@ -8,16 +8,18 @@ A website is not a slide deck pasted into a long page. Keep the template's typog
 
 ## First Batch Archetypes
 
-Use these as calibration samples before broad generation:
+Use these as calibration samples before broad generation. Default to website types that a personal developer, independent creator, small team, studio, or small company can realistically publish and operate without a special license.
 
+- **Indie AI SaaS / micro-product site**: product workflow, target user, templates/use cases, pricing, docs, updates, privacy/export boundaries, free-trial CTA.
 - **B2B SaaS product site**: value proposition, product visual, proof, integrations, case evidence, demo CTA.
+- **Independent developer app site**: app screenshots, install path, platform support, permissions, changelog, pricing, support, privacy.
+- **Digital product / template store**: catalog, previews, license, pricing, checkout copy, refund policy, usage examples.
 - **Knowledge base / docs portal**: search, quick paths, task cards, API/reference paths, changelog, troubleshooting.
 - **Event / conference site**: date, location, agenda, speakers, ticket tiers, venue, registration CTA.
 - **Editorial / research report site**: issue title, author/date, findings, chapters, charts, quotes, subscribe/download CTA.
 - **High-end service / studio case site**: positioning, representative work, method, client result, process, consultation CTA.
 - **Ecommerce product detail page**: product media, price, variants, stock, shipping, returns, reviews, material/spec proof, add-to-cart CTA.
 - **Cohort course / education site**: audience fit, learning outcomes, curriculum, instructor proof, cohort mechanics, tuition, FAQ/application CTA.
-- **High-trust financial product site**: regulatory identity, disclosures, security evidence, fee transparency, money-flow clarity, support, eligibility CTA.
 - **Healthcare clinic / health service site**: appointment paths, provider credentials, location, insurance, privacy, emergency boundaries, patient preparation.
 - **Real estate / property / rental site**: location search, map context, price, availability, listing facts, agent trust, fees, showing/apply CTA, fair-housing disclosure.
 - **Hospitality / restaurant / hotel site**: menu or rooms, reservations, location, hours, reviews, real imagery, accessibility, cancellation or booking policy.
@@ -34,6 +36,8 @@ Use these as calibration samples before broad generation:
 - **Travel planning / booking site**: destination/date/guest search, map and list comparison, filters, total price, itinerary builder, checkout, confirmation, saved trips, cancellation/change states, and no-availability recovery.
 - **Food delivery / online ordering site**: address-first availability, restaurant/menu browsing, item customization, cart, fee/tip/payment review, ETA tracking, courier contact, receipt, reorder, and support/refund states.
 
+Regulated categories such as banking account opening, KYC, securities trading, insurance claim adjudication, medical diagnosis, and payment custody are not default calibration targets for this template library. Use them only when the user explicitly wants a regulated-industry sample and the page includes the proper role, disclosure, and license boundaries.
+
 ## Archetype Structure Requirements
 
 Do not reuse one generic landing-page skeleton across all archetypes. The style can come from a deck template, but the information architecture must come from the website type.
@@ -49,6 +53,19 @@ Required sections:
 - Conversion finish: demo, pricing entry, or sales contact path.
 
 Failure pattern: a SaaS page that only shows a bold graphic and feature cards still feels like a pitch slide, not a product website.
+
+### Indie AI SaaS / Micro-Product Site
+
+Required sections:
+
+- First viewport: product category, target user, concrete job-to-be-done, free trial or download CTA, and secondary template/demo path.
+- Product workflow: show how the user starts, edits, reviews, exports, publishes, or shares. Use a real product surface, not an abstract AI glow.
+- Use cases or templates: name specific jobs such as launch page, plugin page, waitlist, changelog, comparison page, template store, documentation starter, or client proposal.
+- Pricing and limits: free tier, paid plan, project limits, export rights, usage limits, cancellation, and support expectations.
+- Trust boundary: privacy, training/data-use stance, deletion/export path, permissions, uptime or changelog, and support route.
+- Conversion finish: trial, install, buy, template preview, docs quickstart, or founder contact path.
+
+Failure pattern: an indie product site that says "AI helps you launch faster" but lacks workflow, pricing, export/privacy boundaries, and a credible first task is just a generic SaaS landing page.
 
 ### Knowledge Base / Docs Portal
 
@@ -471,8 +488,9 @@ When running a sustained feedback loop across industries:
 - Ecommerce/PDP samples should graduate from "beautiful product poster" to a purchase mini-system: variant state, stock, price, cart preview, shipping timing and cost, returns, warranty, dimensions, care, materials, review summary, and mobile-visible add-to-cart path.
 - Education/course pages should be scored by reduced enrollment uncertainty: target learner, concrete outcome, curriculum depth, instructor proof, cohort mechanics, tuition/refund, and student work.
 - Cohort/course samples should graduate from "outcome plus syllabus" to an enrollment mini-system: application or checkout path, fit criteria, weekly curriculum, workload, instructor proof, student artifacts, tuition, refund, team invoice, cohort dates, seat count, and post-application expectations.
-- High-trust financial pages should use conservative language and visible boundaries. If partner identity, risk, fees, approval limits, and support are not clear near conversion, the design is incomplete regardless of polish.
-- Fintech/financial-service samples should graduate from "trust landing page" to a compliance-aware decision system: eligibility, KYC/verification steps, partner-bank or custodian boundary, FDIC or non-FDIC limits, exact fees, money-flow steps, security controls, support/escalation, account approval risk, and disclosure links beside conversion actions.
+- Indie and small-company samples should now be the default feedback-loop target: AI micro-SaaS, developer tools, app pages, template stores, service companies, courses, communities, events, docs, and professional portfolios.
+- Indie AI SaaS samples should graduate from "AI promise plus CTA" to a self-serve product mini-system: product workflow, specific templates/use cases, visible pricing, docs quickstart, changelog, support limits, privacy/training stance, export/delete controls, and a first useful task.
+- Regulated financial, insurance, securities, payments, and medical diagnosis flows are not default template-library targets. If included, they must be framed as regulated-industry samples with explicit role, license, partner, risk, approval, support, and disclosure boundaries.
 - Healthcare is adjacent to financial high-trust work but adds patient safety: booking UX, medical credentials, insurance, privacy, emergency guidance, accessibility, and YMYL-safe health claims.
 - Healthcare/clinic samples should graduate from "trust cards" to a patient-flow mini-system: appointment type triage, next openings, provider credentials, insurance and self-pay guidance, visit-prep checklist, secure portal/privacy notes, accessibility support, and explicit emergency boundaries before any symptom form.
 - Real estate is an excellent stress test for layout because it needs search, map context, listing facts, price/availability, contact, and legal disclosure in the same flow.
